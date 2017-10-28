@@ -1,0 +1,11 @@
+function dirReduc (arr) {
+  const northCount = arr.filter(direction => direction === 'NORTH').length;
+  const southCount = arr.filter(direction => direction === 'SOUTH').length;
+  const eastCount = arr.filter(direction => direction === 'EAST').length;
+  const westCount = arr.filter(direction => direction === 'WEST').length;
+  const latitude = eastCount - westCount;
+  const longitude = northCount - southCount;
+   
+
+
+}
