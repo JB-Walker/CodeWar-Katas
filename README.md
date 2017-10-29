@@ -5,6 +5,7 @@ Solved
 5 kyu --- Mystery Function 1
 6 kyu --- Stop gninnipS My sdroW!
 6 kyu --- Counting Duplicates
+6 kyu --- IQ Test
 
 
 
