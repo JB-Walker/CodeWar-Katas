@@ -1,7 +1,7 @@
 This repo contains some of the Katas I solved in CodeWars. <br>
 <br>
 Solved <br>
-------------------------------------- <br>
+------------------------------------------- <br>
 5 kyu --- Mystery Function 1 <br>
 5 kyu --- Directions Reduction <br>
 6 kyu --- Stop gninnipS My sdroW! <br>
@@ -13,9 +13,9 @@ Solved <br>
 <br>
 <br>
 Progress<br>
-------------------------------------- <br>
-Rank: 6 kyu<br>
-Honor: 68<br>
-Leaderboard Position: #102,080<br>
-Honor Percentile: 74th<br>
-Total Completed Kata: 7<br>
+------------------------------------------- <br>
+Rank: <strong>6 kyu</strong><br>
+Honor: <strong>68</strong><br>
+Leaderboard Position: <strong>#102,080</strong><br>
+Honor Percentile: <strong>74th</strong><br>
+Total Completed Kata: <strong>7</strong><br>
