@@ -3,7 +3,9 @@ function expandedForm(num) {
   let expandedString = digitArray[digitArray.length - 1];
   if (digitArray.length > 1) {
     for (let i = digitArray.length - 2; i > -1; i--) {
-      expandedString = digitArray[i] * Math.pow(10, (digitArray.length - i - 1)) + ' + ' + expandedString;
+      if (digitArray[i] !== '0') {
+        expandedString = digitArray[i] * Math.pow(10, (digitArray.length - i - 1)) + ' + ' + expandedString;
+      }
     }
   }
   return expandedString;
