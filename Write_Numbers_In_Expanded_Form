@@ -1,29 +1,10 @@
 function expandedForm(num) {
-  //let numDigitsReversedArr = num.toString().split('').reverse();
-  //console.log(numDigitsReversedArr);
-  //let expandedForm = numDigitsReversedArr[0];
-  //if (numDigitsReversedArr.length > 1) {
-    //for (let tens = 1; tens < numDigitsReversedArr.length; tens++) {
-      //console.log(numDigitsReversedArr[tens] * (10 ** tens));
-      //expandedForm = (numDigitsReversedArr[tens] * (10 ** tens)).toString + " + " + expandedForm;
-    //}
-  //}
-  return 2 ** 3;
+  const digitArray = num.toString().split('');
+  let expandedString = digitArray[digitArray.length - 1];
+  if (digitArray.length > 1) {
+    for (let i = digitArray.length - 2; i > -1; i--) {
+      expandedString = digitArray[i] * Math.pow(10, (digitArray.length - i - 1)) + ' + ' + expandedString;
+    }
+  }
+  return expandedString;
 }
-
-
-[eval]:8
-    return (2 ** 3);
-               ^
-SyntaxError: Unexpected token *
-    at createScript (vm.js:56:10)
-    at Object.runInThisContext (vm.js:97:10)
-    at Object.<anonymous> ([eval]-wrapper:6:22)
-    at 
-    at evalScript (bootstrap_node.js:353:27)
-    at run (bootstrap_node.js:122:11)
-    at run (bootstrap_node.js:389:7)
-    at startup (bootstrap_node.js:121:9)
-    at bootstrap_node.js:504:3
-
-// ** IS ES7, WHICH IS NOT SUPPORTED !!!!!!!!!!
