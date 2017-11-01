@@ -6,6 +6,7 @@ Solved <br>
 6 kyu --- Stop gninnipS My sdroW! <br>
 6 kyu --- Counting Duplicates <br>
 6 kyu --- IQ Test <br>
+6 kyu --- Write Numbers in Expanded Form <br>
 <br>
 <br>
 <br>
