@@ -10,6 +10,10 @@ Solved <br>
 <br>
 <br>
 <br>
-In Progress <br>
+Progress<br>
 ------------------------------------- <br>
-5 kyu --- Directions Reduction <br>
+Rank: 6 kyu<br>
+Honor: 68<br>
+Leaderboard Position: #102,080<br>
+Honor Percentile: 74th<br>
+Total Completed Kata: 7<br>
