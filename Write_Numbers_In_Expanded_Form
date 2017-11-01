@@ -18,5 +18,8 @@ function expandedForm(num) {
       }
     }
   }
+  if (expandedString === num) {
+    return num.toString();
+  }
   return expandedString;
 }
