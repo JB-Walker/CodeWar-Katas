@@ -1,4 +1,4 @@
-This repo contains some of the Katas I solved in CodeWars. <br>
+<strong>This repo contains some of the Katas I solved in CodeWars. </strong><br>
 <br>
 Solved <br>
 ------------------------------------------- <br>
