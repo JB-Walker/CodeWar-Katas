@@ -109,3 +109,12 @@ function trueOrFalse(wasThatTrue) {
   return "No, that was false";
 }
 
+// 169
+function testEqual(val) {
+    if (val == 12) {
+      return "Equal";
+    }
+    return "Not Equal";
+}
+testEqual(12);
+
