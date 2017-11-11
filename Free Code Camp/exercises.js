@@ -193,3 +193,12 @@ function testLessOrEqual(val) {
 }
 testLessOrEqual(10);
 
+// 177
+function testLogicalAnd(val) {
+    if (val >= 25 && val <= 50) {
+        return "Yes";
+    }
+    return "No";
+}
+testLogicalAnd(10);
+
