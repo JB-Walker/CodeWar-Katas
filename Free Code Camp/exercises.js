@@ -35,4 +35,7 @@ myArray[0] = 3;
 // 154
 var myData = myArray[2][1];
 
+// 155
+myArray.push(["dog", 3]);
+
 
