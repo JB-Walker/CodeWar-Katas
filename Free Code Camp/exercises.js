@@ -127,3 +127,12 @@ function testStrict(val) {
 }
 testStrict(7);
 
+// 171
+function testNotEqual(val) {
+    if (val != 99) {
+      return "Not Equal";
+    }
+    return "Equal";
+}
+testNotEqual(99);
+
