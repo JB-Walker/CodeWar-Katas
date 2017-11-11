@@ -47,3 +47,11 @@ myArray.unshift(["Paul",35]);
 // 158
 var myList = [['soap',1],['bread',2],['hot dog',24],['donuts',6],['soda',3]];
 
+//159
+function reusableFunction() {
+    console.log("Hi World");
+}
+  
+reusableFunction();
+
+
