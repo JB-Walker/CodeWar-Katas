@@ -32,3 +32,7 @@ var myData = myArray[0];
 // 153
 myArray[0] = 3;
 
+// 154
+var myData = myArray[2][1];
+
+
