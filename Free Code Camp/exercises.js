@@ -96,3 +96,8 @@ function nextInLine(arr, item) {
   return arr.shift();
 }
 
+// 167
+function welcomeToBooleans() {
+  return true;
+}
+
