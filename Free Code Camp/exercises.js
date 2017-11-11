@@ -82,4 +82,9 @@ function myOutfit() {
 }
 myOutfit();
 
+// 164
+function timesFive(num) {
+  return num * 5;
+}
+
 
