@@ -90,4 +90,9 @@ function timesFive(num) {
 // 165
 processed = processArg(7);
 
+// 166
+function nextInLine(arr, item) {
+  arr.push(item);
+  return arr.shift();
+}
 
