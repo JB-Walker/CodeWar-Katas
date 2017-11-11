@@ -74,4 +74,12 @@ function myLocalScope() {
 }
 myLocalScope();
 
+// 163
+var outerWear = "T-Shirt";
+function myOutfit() {
+  var outerWear = "sweater";
+  return outerWear;
+}
+myOutfit();
+
 
