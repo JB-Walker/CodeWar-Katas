@@ -19,4 +19,8 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
     // Your code above this line
     return result;
   }
+
+  //150
+  var myArray = ["happy", 13];
+
   
