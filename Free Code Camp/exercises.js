@@ -15,7 +15,6 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
     var result = "";
     // Your code below this line
     result = "The huge, " + myAdjective + " " + myNoun + " " + myVerb + " around the corner " + myAdverb + "!!";
-  
     // Your code above this line
     return result;
 }
@@ -51,13 +50,21 @@ var myList = [['soap',1],['bread',2],['hot dog',24],['donuts',6],['soda',3]];
 function reusableFunction() {
     console.log("Hi World");
 }
-  
 reusableFunction();
 
 // 160
 function functionWithArgs (num1, num2) {
     console.log(num1 + num2);
 }
-  
 functionWithArgs(3,15);
+
+// 161
+var myGlobal = 10;
+// Declare your variable here
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+  oopsGlobal = 5; 
+}
+
+// 162
 
