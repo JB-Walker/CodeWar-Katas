@@ -38,4 +38,5 @@ var myData = myArray[2][1];
 // 155
 myArray.push(["dog", 3]);
 
-
+// 157
+var removedFromMyArray = myArray.shift();
