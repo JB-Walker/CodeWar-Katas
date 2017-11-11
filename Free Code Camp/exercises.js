@@ -67,4 +67,11 @@ function fun1() {
 }
 
 // 162
+function myLocalScope() {
+    'use strict';
+    var myVar;
+    console.log(myVar);
+}
+myLocalScope();
+
 
