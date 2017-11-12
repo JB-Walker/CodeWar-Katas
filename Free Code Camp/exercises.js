@@ -127,3 +127,146 @@ function testStrict(val) {
 }
 testStrict(7);
 
+// 171
+function testNotEqual(val) {
+    if (val != 99) {
+      return "Not Equal";
+    }
+    return "Equal";
+}
+testNotEqual(99);
+
+// 172
+function testStrictNotEqual(val) {
+    if (val !== 17) {
+      return "Not Equal";
+    }
+    return "Equal";
+}
+testStrictNotEqual(17);
+
+// 173
+function testGreaterThan(val) {
+    if (val > 100) {
+      return "Over 100";
+    }
+    if (val > 10) {
+      return "Over 10";
+    }
+    return "10 or Under";
+}
+testGreaterThan(101);
+
+// 174
+function testGreaterOrEqual(val) {
+    if (val >= 20) {  // Change this line
+      return "20 or Over";
+    }
+    if (val >= 10) {  // Change this line
+      return "10 or Over";
+    }
+    return "9 or Under";
+}
+testGreaterOrEqual(10);
+
+// 175
+function testLessThan(val) {
+    if (val < 25) {  // Change this line
+      return "Under 25";
+    }
+    if (val < 55) {  // Change this line
+      return "Under 55";
+    }
+    return "55 or Over";
+}
+testLessThan(10);
+
+// 176
+function testLessOrEqual(val) {
+    if (val <= 12) {  // Change this line
+      return "Smaller Than or Equal to 12";
+    }
+    if (val <= 24) {  // Change this line
+      return "Smaller Than or Equal to 24";
+    }
+    return "25 or More";
+}
+testLessOrEqual(10);
+
+// 177
+function testLogicalAnd(val) {
+    if (val >= 25 && val <= 50) {
+        return "Yes";
+    }
+    return "No";
+}
+testLogicalAnd(10);
+
+// 178
+function testLogicalOr(val) {
+    if (val < 10 || val > 20) {
+      return "Outside";
+    }
+    return "Inside";
+}
+testLogicalOr(9);
+
+// 179
+function testElse(val) {
+    var result = "";    
+    if (val > 5) {
+      result = "Bigger than 5";
+    } else {
+      result = "5 or Smaller";
+    }
+    return result;
+}
+testElse(4);
+
+// 180
+function testElseIf(val) {
+    if (val > 10) {
+      return "Greater than 10";
+    } else if (val < 5) {
+      return "Smaller than 5";
+    } else {
+    return "Between 5 and 10";
+    }
+}
+testElseIf(7);
+
+// 181
+function orderMyLogic(val) {
+    if (val < 5) {
+      return "Less than 5";
+    } else if (val < 10) {
+      return "Less than 10";
+    } else {
+      return "Greater than or equal to 10";
+    }
+}
+orderMyLogic(7);
+
+// 182 Golf -- programmed earlier
+// 183
+function caseInSwitch(val) {
+    var answer = "";
+    switch (val) {
+      case 1:
+        answer = "alpha";
+        break;
+      case 2:
+        answer = "beta";
+        break;
+      case 3:
+        answer = "gamma";
+        break;
+      case 4:
+        answer = "delta";
+        break;
+    }
+    return answer;  
+  }
+  caseInSwitch(1);
+
+  
