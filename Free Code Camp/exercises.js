@@ -404,3 +404,12 @@ var testObj = {
 var entreeValue = testObj["an entree"];
 var drinkValue = testObj["the drink"];
 
+// 193
+var testObj = {
+    12: "Namath",
+    16: "Montana",
+    19: "Unitas"
+  };  
+var playerNumber = 16;     
+var player = testObj[playerNumber];
+
