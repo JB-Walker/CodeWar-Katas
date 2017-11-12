@@ -247,7 +247,6 @@ function orderMyLogic(val) {
 }
 orderMyLogic(7);
 
-<<<<<<< HEAD
 // 182 Golf -- programmed earlier
 // 183
 function caseInSwitch(val) {
@@ -270,6 +269,26 @@ function caseInSwitch(val) {
   }
   caseInSwitch(1);
 
-  
-=======
->>>>>>> 1214335a15e9aba068b25d1a8177dfce0deaa8d9
+  // 184
+  function switchOfStuff(val) {
+    var answer = "";
+    // Only change code below this line
+    switch (val) {
+      case "a":
+        answer = "apple";
+        break;
+      case "b":
+        answer = "bird";
+        break;
+      case "c":
+        answer = "cat";
+        break;
+      default:
+        answer = "stuff";
+    }
+    return answer;  
+}
+switchOfStuff(1);
+
+
+
