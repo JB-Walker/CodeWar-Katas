@@ -378,5 +378,13 @@ function abTest(a, b) {
 }
 cc(2); cc(3); cc(7); cc('K'); cc('A');
 
+// 190
+var myDog = {
+    "name": "Camper",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["everything!"]
+};
+
 
 
