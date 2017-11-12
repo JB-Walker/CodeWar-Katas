@@ -338,3 +338,10 @@ function chainToSwitch(val) {
 }
 chainToSwitch(7);
 
+// 187
+function isLess(a, b) {
+    return a < b;
+}
+isLess(10, 15);
+
+
