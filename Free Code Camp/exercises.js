@@ -431,3 +431,15 @@ var myDog = {
 };
 myDog.bark = "woof";
 
+// 196
+var myDog = {
+    "name": "Happy Coder",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["Free Code Camp Campers"],
+    "bark": "woof"
+};
+delete myDog.tails;
+
+
+  
