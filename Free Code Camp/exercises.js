@@ -247,6 +247,7 @@ function orderMyLogic(val) {
 }
 orderMyLogic(7);
 
+<<<<<<< HEAD
 // 182 Golf -- programmed earlier
 // 183
 function caseInSwitch(val) {
@@ -270,3 +271,5 @@ function caseInSwitch(val) {
   caseInSwitch(1);
 
   
+=======
+>>>>>>> 1214335a15e9aba068b25d1a8177dfce0deaa8d9
