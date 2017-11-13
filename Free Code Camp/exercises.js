@@ -569,3 +569,11 @@ function multiplyAll(arr) {
 }
 multiplyAll([[1,2],[3,4],[5,6,7]]);
 
+// 207
+var myArray = [];
+var i = 0;
+while (i < 5) {
+  myArray.push(i);
+  i++;
+}
+
