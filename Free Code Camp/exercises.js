@@ -1,3 +1,5 @@
+// Remaining Lessons from Basic JavaScript
+
 // 145
 myStr = "Hello World"; // Fix Me
 
@@ -442,36 +444,7 @@ var myDog = {
 delete myDog.tails;
 
 // 197
-
-// Setup
 function phoneticLookup(val) {
-    var result = "";
-  
-    // Only change code below this line
-    switch(val) {
-      case "alpha": 
-        result = "Adams";
-        break;
-      case "bravo": 
-        result = "Boston";
-        break;
-      case "charlie": 
-        result = "Chicago";
-        break;
-      case "delta": 
-        result = "Denver";
-        break;
-      case "echo": 
-        result = "Easy";
-        break;
-      case "foxtrot": 
-        result = "Frank";
-    }
-  
-    /*
-    
-  // Setup
-  function phoneticLookup(val) {
     var result = "";
     var lookup = {
       "alpha": "Adams",
@@ -481,20 +454,9 @@ function phoneticLookup(val) {
       "echo": "Easy",
       "foxtrot": "Frank"
     };
-    result = lookup.val;
+    result = lookup[val];
     return result;
-  }
-  phoneticLookup("charlie");
-    
-    */
-    
-    
-    // Only change code above this line
-    return result;
-  }
-  
-  // Change this value to test
-  phoneticLookup("charlie");
+}
+phoneticLookup("charlie");
 
-  
-  
+
