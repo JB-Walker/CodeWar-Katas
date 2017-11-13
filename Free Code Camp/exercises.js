@@ -532,3 +532,11 @@ var myPlants = [
 ];
 var secondTree = myPlants[1].list[1];
 
+// 202
+var myArray = [];
+for (var i = 1; i < 6; i++) {
+  myArray.push(i);
+}
+
+
+
