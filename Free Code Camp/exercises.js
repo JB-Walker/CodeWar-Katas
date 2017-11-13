@@ -473,3 +473,27 @@ var myObj = {
 }
 checkObj("gift");
 
+// 199
+var myMusic = [
+    {
+      "artist": "Billy Joel",
+      "title": "Piano Man",
+      "release_year": 1973,
+      "formats": [ 
+        "CS", 
+        "8T", 
+        "LP" ],
+      "gold": true
+    },
+    {
+      "artist": "Billy Jean",
+      "title": "Women's Tennis soundtrack",
+      "release_year": 1976,
+      "formats": [ 
+        "CBS", 
+        "ABC", 
+        "NBC" ],
+      "gold": true
+    }
+];
+
