@@ -658,3 +658,16 @@ var testString = "How many non-space characters are there in this sentence?";
 var expression = /\S/g;
 var nonSpaceCount = testString.match(expression).length;
 
+//
+//
+//  Object Oriented and Functional Programming
+//
+//
+
+// 216
+var motorBike = {
+    "wheels":2,
+    "engines":2,
+    "seats":1
+};
+
