@@ -577,3 +577,48 @@ while (i < 5) {
   i++;
 }
 
+// 208
+var contacts = [
+    {
+        "firstName": "Akira",
+        "lastName": "Laine",
+        "number": "0543236543",
+        "likes": ["Pizza", "Coding", "Brownie Points"]
+    },
+    {
+        "firstName": "Harry",
+        "lastName": "Potter",
+        "number": "0994372684",
+        "likes": ["Hogwarts", "Magic", "Hagrid"]
+    },
+    {
+        "firstName": "Sherlock",
+        "lastName": "Holmes",
+        "number": "0487345643",
+        "likes": ["Intriguing Cases", "Violin"]
+    },
+    {
+        "firstName": "Kristian",
+        "lastName": "Vos",
+        "number": "unknown",
+        "likes": ["Javascript", "Gaming", "Foxes"]
+    }
+];
+function lookUpProfile(firstName, prop){
+    var nameIterator = 0;
+    while (nameIterator < contacts.length) {
+      if (contacts[nameIterator].firstName == firstName) {
+        if (contacts[nameIterator].hasOwnProperty(prop)) {
+            return contacts[nameIterator][prop];
+        } else {
+            return "No such property";
+        }
+      }
+      nameIterator++;
+    }
+    return "No such contact";
+}
+lookUpProfile("Akira", "likes");
+
+
+
