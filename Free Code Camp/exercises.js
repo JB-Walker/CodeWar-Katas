@@ -648,3 +648,8 @@ var testString = "There are 3 cats but 4 dogs.";
 var expression = /\d+/g;
 var digitCount = testString.match(expression).length;
 
+// 214
+var testString = "How many spaces are there in this sentence?";
+var expression = /\s+/g;
+var spaceCount = testString.match(expression).length;
+
