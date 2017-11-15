@@ -625,4 +625,9 @@ function randomFraction() {
     return Math.random();
 }
 
+// 210
+function randomWholeNum() {
+    return Math.floor(Math.random() * 10);
+}
+
 
