@@ -671,3 +671,9 @@ var motorBike = {
     "seats":1
 };
 
+// 217
+var MotorBike = function() {
+    this.wheels = 2;
+    this.engines = 2;
+    this.seats = 1;
+};
