@@ -695,3 +695,30 @@ var Car = function(wheels, seats, engines) {
 };
 var myCar = new Car(4, 3, 1);
 
+// 220
+var Car = function() {
+    // this is a private variable
+    var speed = 10;
+    // these are public methods
+    this.accelerate = function(change) {
+      speed += change;
+    };
+    this.decelerate = function() {
+      speed -= 5;
+    };
+    this.getSpeed = function() {
+      return speed;
+    };
+};
+var Bike = function() {
+    var gear = 10;
+    this.getGear = function() {
+      return gear;
+    };
+    this.setGear = function(newValue) {
+      gear = newValue;
+    };
+};
+var myCar = new Car();
+var myBike = new Bike();
+
