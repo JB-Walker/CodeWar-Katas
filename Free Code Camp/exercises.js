@@ -620,5 +620,9 @@ function lookUpProfile(firstName, prop){
 }
 lookUpProfile("Akira", "likes");
 
+// 209
+function randomFraction() {
+    return Math.random();
+}
 
 
