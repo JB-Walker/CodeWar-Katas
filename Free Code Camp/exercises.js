@@ -769,4 +769,10 @@ var joinMe = ["Split","me","into","an","array"];
 var joinedString = '';
 joinedString = joinMe.join(' ');
 
+//
+// Basic Algorithm Scripting --- NOTE: Started Using ES6 (where possible)
+//
+
+// 229 --- Not a programming Lesson
+
 
