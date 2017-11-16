@@ -926,3 +926,15 @@ function bouncer(arr) {
 }
 bouncer([7, "ate", "", false, 9]);
 
+// 243: Seek and Destroy
+function destroyer(toBeFiltered) {
+  let argsArray = Array.prototype.slice.call(arguments);
+  for (let i = 1; i < argsArray.length; i++) {
+    toBeFiltered = toBeFiltered.filter(function(value){
+      return value !== argsArray[i];
+    });
+  }
+  return toBeFiltered;
+}
+destroyer([1, 2, 3, 1, 2, 3], 2, 3);
+
