@@ -917,3 +917,12 @@ function mutation(arr) {
   return true;
 }
 mutation(["hello", "hey"]);
+
+// 242: Falsy Bouncer
+function bouncer(arr) {
+  return arr.filter(function(value){
+    return (value);
+  });
+}
+bouncer([7, "ate", "", false, 9]);
+
