@@ -905,3 +905,15 @@ function slasher(arr, howMany) {
 }
 slasher([1, 2, 3], 2);
 
+// 241: Mutations
+function mutation(arr) {
+  let word = arr[0].toLowerCase();
+  let letters = arr[1].toLowerCase();
+  for (let i = 0; i < letters.length; i++) {
+    if (word.indexOf(letters[i]) < 0) {
+      return false;
+    }
+  }
+  return true;
+}
+mutation(["hello", "hey"]);
