@@ -728,5 +728,12 @@ var newArray = oldArray.map(function(val) {
   return val + 3;
 });
 
+// 222
+var array = [4,5,6,7,8];
+var singleVal = 0;
+singleVal = array.reduce(function(runningTotal, currentValue) {
+  return runningTotal + currentValue;
+}, 0);
+
 
 
