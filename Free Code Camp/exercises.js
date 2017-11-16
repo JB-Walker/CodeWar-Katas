@@ -793,4 +793,22 @@ function factorialize (num) {
 }
 factorialize(5);
 
+// 232: Check for Palindromes
+function palindrome (str) {
+  let arr = str.toLowerCase().replace(/[^0-9a-z]/g, '').split('');
+  if (!arr.length) {
+    return false;
+  }
+  let reversedArr = arr.slice().reverse();
+  let midPoint = Math.floor(arr.length / 2);
+  for (let i = 0; i < midPoint; i++) {
+    if (arr[i] != reversedArr[i]) {
+      return false;
+    }
+  }
+  return true;
+}
+palindrome("eye");
+
+
 
