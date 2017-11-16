@@ -890,3 +890,18 @@ function chunkArrayInGroups(arr, size) {
 }
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
 
+// 240: Slasher Flick
+function slasher(arr, howMany) {
+  if (!howMany) {
+    return arr;
+  } else if (howMany >= arr.length) {
+    return [];
+  } else {
+    for (let i = 0; i < howMany; i++) {
+      arr.shift();
+    }
+    return arr;
+  }
+}
+slasher([1, 2, 3], 2);
+
