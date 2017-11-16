@@ -722,3 +722,11 @@ var Bike = function() {
 var myCar = new Car();
 var myBike = new Bike();
 
+// 221
+var oldArray = [1,2,3,4,5];
+var newArray = oldArray.map(function(val) {
+  return val + 3;
+});
+
+
+

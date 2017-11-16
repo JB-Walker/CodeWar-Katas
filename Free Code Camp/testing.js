@@ -1,12 +1,16 @@
-function chunkArrayInGroups(arr, size) {
-    debugger;
-    let newArr = [];
-    for (let i = 0; i < Math.ceil(arr.length / size); i++) {
-      newArr[i] = [];
-      for (let j = 0; j < size; j++) {
-        newArr[i][j] = arr.shift();
+function rot13(str) {
+    let codedStr = '';
+    let code;
+    for (let i = 0; i < str.length; i++) {
+      if (str[i].match(/[A-Z]/)) {
+        code = str.charCodeAt(i) + 13;
+        if (code > 90) {
+          code -= 26;
+        }
+        codedStr += String.fromCharCode(code);
       }
+  
     }
-    return newArr;
-}
-chunkArrayInGroups(["a", "b", "c", "d"], 2);
+    return codedStr;
+  }
+  rot13("SERR PBQR PNZC");
