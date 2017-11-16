@@ -810,5 +810,16 @@ function palindrome (str) {
 }
 palindrome("eye");
 
-
+// 233: Find the Longest Word in a String
+function findLongestWord (str) {
+  let arr = str.split(' ');
+  let arr1 = arr.map(function(value) {
+      return value.length;
+  });
+  let arr2 = arr1.sort(function(a, b) {
+      return a - b;
+  });
+  return arr2[arr2.length - 1];
+}
+findLongestWord("The quick brown fox jumped over the lazy dog");
 
