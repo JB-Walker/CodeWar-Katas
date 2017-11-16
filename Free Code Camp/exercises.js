@@ -850,3 +850,15 @@ function confirmEnding (str, target) {
   return (str.substring(str.length - target.length) === target);
 }
 confirmEnding("Bastian", "n");
+
+// 237: Repeat a string repeat a string
+function repeatStringNumTimes (str, num) {
+  try {
+    return str.repeat(num);
+  }
+  catch (RangeError) {
+    return "";
+  }
+}
+repeatStringNumTimes("abc", 3);
+
