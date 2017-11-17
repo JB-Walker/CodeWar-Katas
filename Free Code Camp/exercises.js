@@ -951,3 +951,23 @@ function getIndexToIns(arr, num) {
   return arr.length;
 }
 getIndexToIns([5, 3, 20, 3], 5);
+
+// 245: Caesars Cipher
+function rot13(str) {
+  let codedStr = '';
+  let code;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i].match(/[A-Z]/)) {
+      code = str.charCodeAt(i) + 13;
+      if (code > 90) {
+        code -= 26;
+      }
+      codedStr += String.fromCharCode(code);
+    } else {
+      codedStr += str[i];
+    }
+  }
+  return codedStr;
+}
+rot13("SERR PBQR PNZC");
+
