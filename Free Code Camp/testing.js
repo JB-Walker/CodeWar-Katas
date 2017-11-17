@@ -1,16 +1,19 @@
-function rot13(str) {
-    let codedStr = '';
-    let code;
-    for (let i = 0; i < str.length; i++) {
-      if (str[i].match(/[A-Z]/)) {
-        code = str.charCodeAt(i) + 13;
-        if (code > 90) {
-          code -= 26;
-        }
-        codedStr += String.fromCharCode(code);
-      }
-  
-    }
-    return codedStr;
+function uniteUnique(arr) {
+  let argsArray = Array.prototype.slice.call(arguments);
+  let concatedArrays = [];
+  for (let i = 0; i < argsArray.length; i++) {
+    concatedArrays = concatedArrays.concat(argsArray[i]);
   }
-  rot13("SERR PBQR PNZC");
+  for (let i = 0; i < concatedArrays.length - 1; i++) {
+    for (let j = i + 1; j < concatedArrays.length; j++) {
+      if (concatedArrays[i] === concatedArrays[j]) {
+        concatedArrays.splice(j, 1);
+        j--;
+      }
+    }
+  }
+  return concatedArrays;
+}
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
+
+
