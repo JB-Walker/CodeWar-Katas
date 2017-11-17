@@ -1,12 +1,14 @@
-// Remaining Lessons from Basic JavaScript
+// 
+// Basic JavaScript <continued>
+//
 
-// 145
-myStr = "Hello World"; // Fix Me
+// 145: Understand String Immutability 
+myStr = "Hello World";
 
-// 146
+// 146: Use Bracket Notation to Find the Nth Character in a String
 var thirdLetterOfLastName = lastName[2];
 
-// 147
+// 147: Use Bracket Notation to Find the Last Character in a String 
 var lastLetterOfLastName = lastName[lastName.length - 1];
 
 // 148
@@ -15,9 +17,7 @@ var secondToLastLetterOfLastName = lastName[lastName.length - 2];
 //149
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
     var result = "";
-    // Your code below this line
     result = "The huge, " + myAdjective + " " + myNoun + " " + myVerb + " around the corner " + myAdverb + "!!";
-    // Your code above this line
     return result;
 }
 
@@ -161,10 +161,10 @@ testGreaterThan(101);
 
 // 174
 function testGreaterOrEqual(val) {
-    if (val >= 20) {  // Change this line
+    if (val >= 20) {
       return "20 or Over";
     }
-    if (val >= 10) {  // Change this line
+    if (val >= 10) {e
       return "10 or Over";
     }
     return "9 or Under";
@@ -173,10 +173,10 @@ testGreaterOrEqual(10);
 
 // 175
 function testLessThan(val) {
-    if (val < 25) {  // Change this line
+    if (val < 25) {
       return "Under 25";
     }
-    if (val < 55) {  // Change this line
+    if (val < 55) {
       return "Under 55";
     }
     return "55 or Over";
@@ -185,10 +185,10 @@ testLessThan(10);
 
 // 176
 function testLessOrEqual(val) {
-    if (val <= 12) {  // Change this line
+    if (val <= 12) {
       return "Smaller Than or Equal to 12";
     }
-    if (val <= 24) {  // Change this line
+    if (val <= 24) {
       return "Smaller Than or Equal to 24";
     }
     return "25 or More";
@@ -274,7 +274,6 @@ function caseInSwitch(val) {
   // 184
   function switchOfStuff(val) {
     var answer = "";
-    // Only change code below this line
     switch (val) {
       case "a":
         answer = "apple";
@@ -659,9 +658,7 @@ var expression = /\S/g;
 var nonSpaceCount = testString.match(expression).length;
 
 //
-//
 //  Object Oriented and Functional Programming
-//
 //
 
 // 216
@@ -974,6 +971,7 @@ rot13("SERR PBQR PNZC");
 //
 // JSON APIs and AJAX
 //
+
 // 246: Trigger Click Events with jQuery
 <script>
   $(document).ready(function() {
@@ -1175,3 +1173,17 @@ rot13("SERR PBQR PNZC");
 <div id = "data">
     <h4>You are here:</h4>
 </div>
+
+//
+// Intermediate Algorithm Scripting
+//
+
+// 253: Sum All Numbers in a Range
+function sumAll(arr) {
+  let sum = 0;
+  for (let i = Math.min(...arr); i <= Math.max(...arr); i++) {
+    sum += i;
+  }
+  return sum;
+}
+sumAll([1, 4]);
