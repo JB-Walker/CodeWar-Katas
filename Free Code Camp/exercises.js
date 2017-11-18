@@ -1293,3 +1293,20 @@ function myReplace(str, before, after) {
   return str.replace(before, after);
 }
 myReplace("He is Sleeping on the couch", "Sleeping", "sitting");
+
+// 258: Pig Latin
+// Translate the provided string to pig latin. Pig Latin takes the first consonant
+// (or consonant cluster) of an English word, moves it to the end of the word and suffixes an "ay".
+// If a word begins with a vowel you just add "way" to the end. Input strings are guaranteed to be
+// English words in all lowercase.
+function translatePigLatin(str) {
+  if (str[0].match(/a|e|i|o|u/)) {
+    return `${str}way`;
+  }
+  for (let i = 1; i < str.length; i++) {
+    if (str[i].match(/a|e|i|o|u/)) {
+      return str.substring(i) + str.substring(0, i) + 'ay';
+    }
+  }
+}
+translatePigLatin("glove");
