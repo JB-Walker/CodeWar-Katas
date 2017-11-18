@@ -1246,3 +1246,36 @@ function convertToRoman(num) {
   return roman;
 }
 convertToRoman(36);
+
+// 256: Wherefore art thou
+// Make a function that looks through an array of objects (first argument) and returns
+// an array of all objects that have matching property and value pairs (second argument).
+// Each property and value pair of the source object has to be present in the object from
+// the collection if it is to be included in the returned array.
+function whatIsInAName(collection, source) {
+  var arr = [];
+  let requiredProperties = Object.keys(source);
+  for (let i = 0; i < collection.length; i++) {
+    // Assume that the collection object has all requiredProperties and that
+    // each property has the required value. Try to prove this false.
+    let match = true;
+    for (let j = 0; j < requiredProperties.length; j++) {
+      if (collection[i].hasOwnProperty(requiredProperties[j])) {
+        if (collection[i][requiredProperties[j]] !== source[requiredProperties[j]]) {
+          // The collection object has the requiredProperty, but wrong value
+          match = false;
+        } // Otherwise the collection object does have the requiredProperty
+          // and the correct value. Match remans true. j increments and testing continues
+      }
+      else {
+        // The collection object does not have the requiredProperty
+        match = false;
+      }
+    }
+    if (match) {
+      arr.push(collection[i]);
+    }
+  }
+  return arr;
+}
+whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
