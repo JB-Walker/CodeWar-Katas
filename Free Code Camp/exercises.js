@@ -1342,3 +1342,13 @@ function fearNotLetter(str) {
   return undefined;
 }
 fearNotLetter("abce");
+
+// 261: Boo who
+// Check if a value is classified as a boolean primitive. Return true or false.
+function booWho(bool) {
+  if (bool === true || bool === false) {
+    return true;
+  }
+  return false;
+}
+booWho(null);
