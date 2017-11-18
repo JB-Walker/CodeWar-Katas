@@ -1218,3 +1218,31 @@ function diffArray(arr1, arr2) {
   return newArr;
 }
 diffArray([1, "calf", 3, "piglet"], [1, "calf", 3, 4]);
+
+// 255: Roman Numeral Converter
+function convertToRoman(num) {
+  let roman = '';
+  let count;
+  function comparison(value, symbol) {
+    if (num >= value) {
+      count = Math.floor(num / value);
+      roman += symbol.repeat(count);
+      num -= value * count;
+    }
+  }  
+  comparison(1000, "M");
+  comparison(900, "CM");
+  comparison(500, "D");
+  comparison(400, "CD");
+  comparison(100, "C");
+  comparison(90, "XC");
+  comparison(50, "L");
+  comparison(40, "XL");
+  comparison(10, "X");
+  comparison(9, "IX");
+  comparison(5, "V");
+  comparison(4, "IV");  
+  comparison(1, "I");
+  return roman;
+}
+convertToRoman(36);
