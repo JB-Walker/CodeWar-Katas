@@ -1,19 +1,28 @@
-function uniteUnique(arr) {
-  let argsArray = Array.prototype.slice.call(arguments);
-  let concatedArrays = [];
-  for (let i = 0; i < argsArray.length; i++) {
-    concatedArrays = concatedArrays.concat(argsArray[i]);
+function smallestCommons(arr) {
+  let min = arr[0];
+  let max = arr[1]; 
+  if (arr[0] > arr[1]) {
+    min = arr[1];
+    max = arr[0]; 
   }
-  for (let i = 0; i < concatedArrays.length - 1; i++) {
-    for (let j = i + 1; j < concatedArrays.length; j++) {
-      if (concatedArrays[i] === concatedArrays[j]) {
-        concatedArrays.splice(j, 1);
-        j--;
+  let found = false;
+  let iterationFailed = false;
+  let smallestCommonMultiple = max;
+  while (!found) {
+    for (let i = min; i <= max; i++) {
+      if (smallestCommonMultiple % i !== 0) {
+        iterationFailed = true;
+        break;
+      }
+      if (iterationFailed) {
+        iterationFailed = false;
+        smallestCommonMultiple += max;
+
+      } else {
+        found = true;
+        return smallestCommonMultiple;
       }
     }
   }
-  return concatedArrays;
 }
-uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
-
-
+smallestCommons([1, 5]);

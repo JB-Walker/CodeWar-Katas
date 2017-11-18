@@ -1179,6 +1179,8 @@ rot13("SERR PBQR PNZC");
 //
 
 // 253: Sum All Numbers in a Range
+// We'll pass you an array of two numbers. Return the sum of those two numbers
+// and all numbers between them. The lowest number will not always come first.
 function sumAll(arr) {
   let sum = 0;
   for (let i = Math.min(...arr); i <= Math.max(...arr); i++) {
@@ -1187,3 +1189,32 @@ function sumAll(arr) {
   return sum;
 }
 sumAll([1, 4]);
+
+// 254: Diff Two Arrays
+// Compare two arrays and return a new array with any items only found in one of the two
+// given arrays, but not both. In other words, return the symmetric difference of the two arrays.
+function diffArray(arr1, arr2) {
+  arr1.sort();
+  arr2.sort();
+  var newArr = [];
+  while (arr1.length && arr2.length) {
+    if (arr1[0].toString() === arr2[0].toString()) {
+      arr1.shift();
+      arr2.shift();
+    }
+    else if (arr1[0].toString() > arr2[0].toString()) {
+      newArr.push(arr2.shift());
+    }
+    else {
+      newArr.push(arr1.shift());
+    }
+  }
+  if (arr1.length) {
+    newArr = newArr.concat(arr1);
+  }
+  else if (arr2.length) {
+    newArr = newArr.concat(arr2);
+  }
+  return newArr;
+}
+diffArray([1, "calf", 3, "piglet"], [1, "calf", 3, 4]);
