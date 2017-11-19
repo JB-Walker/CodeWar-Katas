@@ -1442,3 +1442,35 @@ function sumFibs(num) {
   return oddSum;
 }
 sumFibs(1000);
+
+// 266: Sum All Primes
+// Sum all the prime numbers up to and including the provided number.
+function sumPrimes(num) {
+  let simpleSums = [0, 0, 2, 5, 5];
+  if (num < 5) {
+    return simpleSums[num];
+  }
+  // The following approach employs my observartion I need only test the
+  // primes that have already been found as divisors to the 
+  // isThisNumPrime variable.
+  let primesFound = [3]; // not including 2 because iterator will never be even
+  let primesFoundSum = 5;
+  for (let isThisNumPrime = 5; isThisNumPrime <= num; isThisNumPrime += 2) {
+    let possiblyPrime = true;
+    // NOTE: The inner loop can likely be further reduced to only testing those
+    // primes that are less than the square-root of num, but I will leave this 
+    // factoring to a later date.
+    for (let i = 0; i < primesFound.length; i++) {
+      if (isThisNumPrime % primesFound[i] === 0) {
+        possiblyPrime = false;
+        break;
+      }
+    }
+    if (possiblyPrime) {
+      primesFound.push(isThisNumPrime);
+      primesFoundSum += isThisNumPrime;
+    }
+  }
+  return primesFoundSum;
+}
+sumPrimes(10);
