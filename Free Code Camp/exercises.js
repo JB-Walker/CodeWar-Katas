@@ -1548,3 +1548,16 @@ function findElement(arr, func) {
   return arr.find(func);
 }
 findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
+
+// 269: Drop It
+// Drop the elements of an array (first argument), starting from the front, until the
+// predicate (second argument) returns true.
+function dropElements(arr, func) {
+  let index = arr.findIndex(func);
+  if (index === -1) {
+    return [];
+  } else {
+    return arr.slice(index);
+  }
+}
+dropElements([1, 2, 3], function(n) {return n < 3; });
