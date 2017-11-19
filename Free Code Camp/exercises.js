@@ -1404,3 +1404,21 @@ function convertHTML(str) {
   return str;
 }
 convertHTML("Dolce & Gabbana");
+
+// 264: Spinal Tap Case
+// Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
+function spinalCase(str) {
+  let arr = str.split('');
+  arr[0] = arr[0].toLowerCase();
+  let newArr = [arr[0]];
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i].match(/[^A-Za-z]/) || (arr[i-1].match(/[a-z]/) && arr[i].match(/[A-Z]/))) {
+      newArr.push('-');
+    } 
+    if (arr[i].match(/[A-Za-z]/)) {
+      newArr.push(arr[i].toLowerCase());
+    }
+  }
+  return newArr.join('');
+}
+spinalCase('This Is Spinal Tap');
