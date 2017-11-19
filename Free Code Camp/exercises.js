@@ -1508,3 +1508,35 @@ function smallestCommons(arr) {
   return "Error";
 }
 smallestCommons([1, 13]);
+
+// 267: Smallest Common Multiple - works
+// Find the smallest common multiple of the provided parameters that can be evenly divided by both,
+// as well as by all sequential numbers in the range between these parameters. The range will be an 
+// array of two numbers that will not necessarily be in numerical order.
+function smallestCommons(arr) {
+  let min = arr[0];
+  let max = arr[1]; 
+  if (arr[0] > arr[1]) {
+    min = arr[1];
+    max = arr[0]; 
+  }
+  let found = false;
+  let iterationFailed = false;
+  let smallestCommonMultiple = max;
+  while (!found) {
+    for (let i = min; i <= max; i++) {
+      if (smallestCommonMultiple % i !== 0) {
+        iterationFailed = true;
+        break;
+      }
+    }
+    if (iterationFailed) {
+      iterationFailed = false;
+      smallestCommonMultiple += max;
+    } else {
+      found = true;
+      return smallestCommonMultiple;
+    }
+  }
+}
+smallestCommons([1, 5]);
