@@ -1422,3 +1422,23 @@ function spinalCase(str) {
   return newArr.join('');
 }
 spinalCase('This Is Spinal Tap');
+
+// 265: Sum All Odd Fibonacci Numbers
+// Given a positive integer num, return the sum of all odd Fibonacci numbers
+// that are less than or equal to num.
+function sumFibs(num) {
+  let oddSum = 2;
+  let a = 0;
+  let b = 1;
+  let c = 1;
+  while (c <= num) {
+    a = b;
+    b = c;
+    c += a;
+    if (c % 2 === 1 && c <= num) {
+      oddSum += c;
+    }
+  }
+  return oddSum;
+}
+sumFibs(1000);
