@@ -1474,3 +1474,37 @@ function sumPrimes(num) {
   return primesFoundSum;
 }
 sumPrimes(10);
+
+// 267: Smallest Common Multiple -- THIS APPROACH CRASHED THE BROWSER - NO IDEA IF IT WORKS
+// Find the smallest common multiple of the provided parameters that can be evenly divided by both,
+// as well as by all sequential numbers in the range between these parameters. The range will be an 
+// array of two numbers that will not necessarily be in numerical order.
+function smallestCommons(arr) {
+  let min = arr[0];
+  let max = arr[1]; 
+  if (arr[0] > arr[1]) {
+    min = arr[1];
+    max = arr[0]; 
+  }
+  let product = min;
+  for (let i = min + 1; i <= max; i++) {
+    product *= i;
+  }
+  let numRange = {};
+  for (let i = min; i <= product; i++) {
+    numRange[i] = 0;
+  }
+  for (let i = min; i <= max; i++) {
+    for (let j = i; j <= product; j += i) {
+      numRange[j]++;
+    }
+  }
+  let numCount = max - min + 1;
+  for (let i = min; i <= product; i++) {
+    if (numRange[i] === numCount) {
+      return i;
+    }
+  }
+  return "Error";
+}
+smallestCommons([1, 13]);
