@@ -1566,3 +1566,8 @@ dropElements([1, 2, 3], function(n) {return n < 3; });
 // Q1: The computer only has 3 basic parts. False. 4.
 // Q2: CPU stands for Central Processing Unit. True
 // Q3: All parts can access the memory. False. Only the CPU
+
+// 271: Video Challenge - Computer Basics: More Computer Hardware
+// Q1: The power supply isn't a necessary part of a computer since it's not one of the 4 main parts. False.
+// Q2: A motherboard connects all of the working parts in a computer. True.
+// Q3: Memory is usually categorized into 3 parts. False.
