@@ -1,20 +1,20 @@
 // Tribute
 window.onload = function start() {
-    const  containerCount = 14, imgsPerContainer = 7;
-    slideShow();
+    const containerCount = 14; // Number of child pics displayed simultaneously
+    const imgsPerContainer = 7; // Number of unique images available to each container
+    slideShow(containerCount, imgsPerContainer);
   }
-  // There are 14 pic containers, which continuously & ramdonly select
-  // one of seven pictures assigned to that container. After being displayed
-  // for a few seconds the pic changes. The changes not not all happen at once.
-  function slideShow () {
-    const id, imgNum, imgNumPath;
+  // Each pic container continuously & ramdonly selects a new pic to be displayed from a
+  // set of assigned pictures. The pic changes should not not all happen at once.
+  function slideShow (containerCount, imgsPerContainer) {
     for (let container = 0; container < containerCount; container++) {
       window.setInterval(function () {
-        id = `container-${container}`;
-        imgNum = Math.floor(Math.random() * imgsPerContainer) + container * imgsPerContainer;
-        imgNumPath = `img/${imgNum}.jpg`;
+        const id = `container-${container}`;
+        const imgNum = Math.floor(Math.random() * imgsPerContainer) + container * imgsPerContainer;
+        const imgNumPath = `img/${imgNum}.jpg`;
         document.getElementById(id).setAttribute('src', imgNumPath);
       }, 3000); // repeat forever, changing image name every 3 seconds
     }
   }
+  
   
