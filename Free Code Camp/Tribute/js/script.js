@@ -4,6 +4,7 @@ window.onload = function start() {
     const imgsPerContainer = 7; // Number of unique images available to each container
     slideShow(containerCount, imgsPerContainer);
   }
+  
   // Each pic container continuously & ramdonly selects a new pic to be displayed from a
   // set of assigned pictures. The pic changes should not not all happen at once.
   function slideShow (containerCount, imgsPerContainer) {
