@@ -1596,3 +1596,7 @@ dropElements([1, 2, 3], function(n) {return n < 3; });
 // Q1: A Byte is the smallest possible amount of data. False.
 // Q2: A bit is the smallest possible amount of data. True.
 // Q3: A Kilobyte is 1024 Bytes. True.
+
+// 277: Video Challenge - Computer Basics: Measuring Data Speed
+// Q1: Data speed is measured in bits per second. True.
+// Q2: Data size is measured in bits. False.
