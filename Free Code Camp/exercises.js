@@ -1600,3 +1600,22 @@ dropElements([1, 2, 3], function(n) {return n < 3; });
 // 277: Video Challenge - Computer Basics: Measuring Data Speed
 // Q1: Data speed is measured in bits per second. True.
 // Q2: Data size is measured in bits. False.
+
+// 278: Steamroller - passes FCC tests, but mixes order in edge cases, such as the one given.
+// Flatten a nested array. You must account for varying levels of nesting.
+function steamrollArray(arr) {
+  let newArr = [];
+  for (let i = 0; i <= arr.length; i++) {
+    if (Array.isArray(arr[i])) {
+      arr = arr.concat(arr[i]);
+      arr[i] = null;
+    }
+  }
+  for (let i = 0; i <= arr.length; i++) {
+    if (arr[i]) {
+      newArr.push(arr[i]);
+    }
+  }
+  return newArr;
+}
+steamrollArray([[["a"]], [["b"]], "c"]);
