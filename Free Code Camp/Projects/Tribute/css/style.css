@@ -1,5 +1,6 @@
-img, p {
+img, .box {
     width: 100%;
     height: 210px;
     overflow: hidden;
-}
+  }
+  
