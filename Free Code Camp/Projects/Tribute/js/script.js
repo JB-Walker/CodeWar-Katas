@@ -25,6 +25,6 @@ function showText () {
     document.getElementById('textRight').style.display = 'block';
     document.getElementById('titleLeft').style.visibility = 'hidden';        
     document.getElementById('textLeft').style.display = 'block';  
-  }, 1000);
+  }, 3500);
 }
 
