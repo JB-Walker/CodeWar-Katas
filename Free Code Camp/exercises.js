@@ -1683,3 +1683,5 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // 286: Video Challenge - Computer Basics: Software
 // Q1: Safari, Chrome, and Firefox are all examples of application software. True.
 
+// 287: Project 1 - Tribute
+
