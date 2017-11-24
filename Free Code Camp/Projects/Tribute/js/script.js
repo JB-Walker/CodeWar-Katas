@@ -21,10 +21,8 @@ function slideShow (containerCount, imgsPerContainer) {
 // Replace the childhood title pics with the promotion pics
 function showText () {
   window.setTimeout(function () {
-    document.getElementById('titleRightPic').style.visibility = 'hidden';
-    document.getElementById('titleRightText').style.display = 'block';
-    document.getElementById('titleLeftPic').style.visibility = 'hidden';        
-    document.getElementById('titleLeftText').style.display = 'block';  
+    document.getElementById('titlePic').style.visibility = 'hidden';
+    document.getElementById('titleText').style.display = 'block';
   }, 3500);
 }
 
