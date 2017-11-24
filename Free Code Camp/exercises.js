@@ -1685,3 +1685,11 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 
 // 287: Project 1 - Tribute
 
+// 288: Video Challenge - Computer Basics: Content Delivery Networks
+// Q1: Content Delivery Networks are a service you can buy through your internet service provider 
+//   to increase your network connectivity. False.
+// Q2: CDNs are popular and wide-reaching, and you've probably used one as a website user many 
+//   times without even knowing it. The end result is that your experience was faster than it could 
+//   have been without the CDNs services. True.
+
+
