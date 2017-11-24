@@ -1651,3 +1651,8 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 // Q1: The most common type of computer is a Personal Computer, a PC. True.
 // Q2: What makes Supercomputers 'super' is when multiple CPUs work on one problem, called parallel processing. True.
 // Q3: Microcontrollers and workstation computers can perform roughly the same tasks. False.
+
+// 281: Video Challenge - Computer Basics: More on the Motherboard
+// Q1: A motherboard must connect the CPU, the memory, and the network. False.
+// Q2: Expansion slots allow users to add capabilities to a computer. True.
+// Q3: Ports help the computer access information. True.
