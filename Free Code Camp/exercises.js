@@ -1662,3 +1662,13 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 // Q2: VPNs (Virtual Private Networks) and WANs (Wide Area Networks) do just about the same thing. True.
 // Q3: VPNs and WANs both use the internet to connect LANs. False.
 
+// 283: Everything Be True
+// Check if the predicate (second argument) is truthy on all elements of a collection (first argument).
+function truthCheck(collection, pre) {
+  return collection.every(function(element) {
+    return (element[pre]);
+  });
+}
+truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, 
+{"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
+
