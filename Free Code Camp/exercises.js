@@ -1656,3 +1656,9 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 // Q1: A motherboard must connect the CPU, the memory, and the network. False.
 // Q2: Expansion slots allow users to add capabilities to a computer. True.
 // Q3: Ports help the computer access information. True.
+
+// 282: Video Challenge - Computer Basics: Data Networks
+// Q1: You can connect to a LAN from far away. False.
+// Q2: VPNs (Virtual Private Networks) and WANs (Wide Area Networks) do just about the same thing. True.
+// Q3: VPNs and WANs both use the internet to connect LANs. False.
+
