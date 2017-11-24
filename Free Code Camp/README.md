@@ -5,7 +5,7 @@ Front-End Development Certification<br>
   <li>60/60 HTML5 and CSS</li>
   <li>31/31 Responsive Design with Bootstrap</li>
   <li>18/18 jQuery</li>
-  <li>01/03 Basic Front-End Development Projects ###### Skipped 2 ######</li>
+  <li>02/03 Basic Front-End Development Projects ###### Skipped 1 ######</li>
   <li>104/104 Basic Javascript</li>
   <li>13/13 Object Oriented and Functional Programming</li>
   <li>17/17 Basic Algorithm Scripting</li>
