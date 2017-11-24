@@ -1679,3 +1679,7 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // 285: Video Challenge - Computer Basics: How the Internet Works
 // Q1: Your computer sends a request for information. True.
 // Q2: The Internet can be broken by a large chunk of routers and servers going down. False.
+
+// 286: Video Challenge - Computer Basics: Software
+// Q1: Safari, Chrome, and Firefox are all examples of application software. True.
+
