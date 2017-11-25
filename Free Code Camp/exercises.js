@@ -1700,3 +1700,8 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q1: Routers have to know the whole internet. False.
 // Q2: Packets are little pieces of binary code. True.
 // Q3: Packets have to be sent in one piece. False.
+
+// 291: Video Challenge -
+// Q1: 
+// Q2: 
+// Q3: 
