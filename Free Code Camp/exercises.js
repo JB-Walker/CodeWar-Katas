@@ -1701,7 +1701,9 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q2: Packets are little pieces of binary code. True.
 // Q3: Packets have to be sent in one piece. False.
 
-// 291: Video Challenge -
-// Q1: 
-// Q2: 
-// Q3: 
+// 291: Video Challenge - Source Code
+// Q1: Source code is a text document. True.
+// Q2: JavaScript is a compiled language. False.
+// Q3: Free Code Camp is open source. True.
+
+
