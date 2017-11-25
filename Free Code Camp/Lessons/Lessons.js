@@ -1706,4 +1706,8 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q2: JavaScript is a compiled language. False.
 // Q3: Free Code Camp is open source. True.
 
+// 292: Video Challenge - Console Log
+// Q1: The console serves only small, unnecessary purposes. False.
+// Q2: You can console strings (sets of words), numbers, and booleans (true/false statements). True.
+
 
