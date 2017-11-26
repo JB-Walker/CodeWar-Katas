@@ -48,3 +48,28 @@ Fear can keep us up all night long, but faith makes one fine pillow.
 Finish your work on hand don't be greedy.
 For hate is never conquered by hate. Hate is conquered by love .
 For success today look first to yourself.
+Fortune favors the brave.
+Good health will be yours for a long time.
+Good news from afar may bring you a welcome visitor.
+Happinees comes from a good life.
+Happiness is an activity.
+Happiness is often a rebound from hard work.
+Hard work pays off in the future, laziness pays off now.
+He who slithers among the ground is not always a foe.
+Help is always needed but not always appreciated. Stay true to your heart and help those in need weather they appreciate it or not.
+Hidden in a valley beside an open stream- This will be the type of place where you will find your dream.
+Hold on to the past but eventually, let the times go and keep the memories into the present.
+Hone your competitive instincts.
+How can you have a beutiful ending without making beautiful mistakes.
+Human evolution: “wider freeway" but narrower viewpoints.
+If winter comes, can spring be far behind?
+If you are afraid to shake the dice, you will never throw a six.
+If you are never patient, you will never get anything done. If you believe you can do it, you will be rewarded with success.
+If you don’t do it excellently, don’t do it at all.
+If you feel you are right, stand firmly by your convictions.
+If you have something good in your life, don't let it go!
+If you have something worth fighting for, then fight for it.
+If you refuse to accept anything but the best, you very often get it.
+If you wish to know the mind of a man, listen to his words
+If you're happy, you're successful.
+If your desires are not extravagant, they will be rewarded.
