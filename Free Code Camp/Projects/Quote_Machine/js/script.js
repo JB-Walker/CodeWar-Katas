@@ -98,4 +98,30 @@ Love can last a lifetime, if you want it to.
 Love is as necessary to human beings as food and shelter.
 Meeting adversity well is the source of your strength.
 Never give up on someone that you don't go a day without thinking about.
+Never give up. Always find a reason to keep trying.
+Never give up. You're not a failure if you don't give up.
+Never underestimate the power of the human touch.
+Never upset the driver of the car you're in; they're the master of your destiny until you get home.
+Next full moon brings an enchanting evening.
+Not all closed eye is sleeping nor open eye is seeing.
+Nothing astonishes men so much as common sense and plain dealing.
+Nothing seems impossible to you.
+Now is the time to try something new.
+Now these three remain, faith, hope, and love. The greatest of these is love.
+Our deeds determine us, as much as we determine our deeds.
+Patience is a virtue, unless its against a brick wall.
+Patience is bitter, but its fruit is sweet.
+People are naturally attracted to you.
+Poverty is no disgrace.
+Prosperity makes friends and adversity tries them.
+Punctuality is the politeness of kings and the duty of gentle people everywhere.
+Rivers need springs.
+Seek out the significance of your problem at this time. Try to understand.
+Serious trouble will bypass you.
+Sometimes you just need to lay on the floor.
+Stay true to those who would do the same for you.
+Stop wishing. Start doing.
+Success is the sum of my unique visions realized by the sweat of perseverance.
+The greatest risk is not taking one.
+
 
