@@ -23,3 +23,28 @@ An upward movement initiated in time can counteract fate.
 Ask yourself if what you are doing today is getting you closer to where you want to be tomorrow.
 Back away from individuals who are impulsive.
 Be on the lookout for coming events; They cast their shadows beforehand.
+Be tactful; overlook your own opportunity.
+Before trying to please others think of what makes you happy.
+Believing that you are beautiful will make you appear beautiful to others around you.
+Change can hurt, but it leads a path to something better.
+Conquer your fears or they will conquer you.
+Determination is the wake-up call to the human will.
+Do not be covered in sadness or be fooled in happiness they both must exist
+Do not fear what you don't know
+Do not follow where the path may lead. Go where there is no path...and leave a trail
+Do you believe? Endurance and persistence will be rewarded.
+Don't pursue happiness - create it.
+Elegant surroundings will soon be yours.
+Emotion is energy in motion.
+Enjoy the good luck a companion brings you.
+Enjoyed the meal? Buy one to go too.
+Even if the person who appears most wrong, is also quite often right.
+Every day is a new day. But tomorrow is never promised.
+Everyone agrees. You are the best.
+Everything happens for a reson.
+Express yourself: Don't hold back!
+Failure is only the opportunity to begin again more intelligently.
+Fear can keep us up all night long, but faith makes one fine pillow.
+Finish your work on hand don't be greedy.
+For hate is never conquered by hate. Hate is conquered by love .
+For success today look first to yourself.
