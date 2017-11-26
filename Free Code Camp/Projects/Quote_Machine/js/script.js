@@ -73,3 +73,29 @@ If you refuse to accept anything but the best, you very often get it.
 If you wish to know the mind of a man, listen to his words
 If you're happy, you're successful.
 If your desires are not extravagant, they will be rewarded.
+Impossible is a word only to be found in the dictionary of fools.
+In case of fire, keep calm, pay bill and run.
+In this life it is not what we take up, but what we give up, that makes us rich.
+Instead of worrying and agonizing, move ahead constructively.
+Integrity is doing the right thing, even if nobody is watching.
+Integrity is the essence of everything successful.
+Intelligence is the door to freedom and alert attention is the mother of intelligence.
+It is not necessary to show others you have change; the change will be obvious.
+It is now, and in this world, that we must live.
+It is very possible that you will achieve greatness in your lifetime.
+It never pays to kick a skunk.
+It's better to be alone sometimes.
+Its amazing how much good you can do if you dont care who gets the credit.
+Jealousy doesn't open doors, it closes them!
+Joys are often the shadows, cast by sorrows.
+Keep it simple. The more you say, the less people remember.
+Keep your eye out for someone special.
+Land is always on the mind of a flying bird.
+Let the deeds speak.
+Life consist not in holding good cards, but in playing those you hold well.
+Life is like a dogsled team. If you ain't the lead dog, the scenery never changes.
+Love can last a lifetime, if you want it to.
+Love is as necessary to human beings as food and shelter.
+Meeting adversity well is the source of your strength.
+Never give up on someone that you don't go a day without thinking about.
+
