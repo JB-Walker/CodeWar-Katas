@@ -3,7 +3,10 @@ body {
 }
 
 img {
-    position: center;
+    display: block;
+    margin: 0 auto;
+    width: 80vw;
+
 }
 
 p {
@@ -11,9 +14,8 @@ p {
     color: #000000;
     font-size: 2em;
     position: absolute;
-    top: 32%;
-    left: 31%;  
-    transform: translate(-50%, -50%);
-    width: 60vw;
+    top: 27vh;
+    left: 33vw;  
+    width: 33vw;
     height: 30vh;
 }
