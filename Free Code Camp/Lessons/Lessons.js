@@ -1710,4 +1710,7 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q1: The console serves only small, unnecessary purposes. False.
 // Q2: You can console strings (sets of words), numbers, and booleans (true/false statements). True.
 
+// 293: Video Challenge - Variables In Code
+// Q1: Variables are useful in coding languages like JavaScript. True.
+// Q2: Variables can't stand for anything that isn't a string, number, or boolean. False.
 
