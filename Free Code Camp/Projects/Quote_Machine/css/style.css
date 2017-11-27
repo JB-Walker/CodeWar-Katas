@@ -5,3 +5,13 @@ body {
 img {
     position: center;
 }
+
+p {
+    font-family: 'Dancing Script', cursive;
+    color: #000000;
+    font-size: 2em;
+    position: absolute;
+    top: 32%;
+    left: 31%;  
+    transform: translate(-50%, -50%);
+}

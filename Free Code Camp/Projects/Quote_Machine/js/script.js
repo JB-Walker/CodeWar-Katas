@@ -201,7 +201,7 @@ const fortunes = [
     'Your smile brings happiness to everyone you meet.'
 ];
 
-let cookieHandle = document.getElementById(cookieClick);
+let cookieHandle = document.getElementById(clicker);
 cookieHandle.onClick = flipFortune;
 
 function flipFortune() {
