@@ -14,4 +14,6 @@ p {
     top: 32%;
     left: 31%;  
     transform: translate(-50%, -50%);
+    width: 60vw;
+    height: 30vh;
 }
