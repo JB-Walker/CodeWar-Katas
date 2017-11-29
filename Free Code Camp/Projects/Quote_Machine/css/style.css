@@ -8,14 +8,16 @@ img {
     width: 80vw;
 }
 
-p {
+#fortuneBox {
     font-family: 'Dancing Script', cursive;
     color: rgb(212, 93, 93);
     font-size: 1vw;
     position: absolute;
-    top: 31vh;
+    top: 35vh;
     left: 31vw;  
     width: 33vw;
     height: 30vh;
     font-size: 2vw;
+    text-align: center;
+    vertical-align: middle;
 }
