@@ -1714,3 +1714,9 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q1: Variables are useful in coding languages like JavaScript. True.
 // Q2: Variables can't stand for anything that isn't a string, number, or boolean. False.
 
+// 294: Video Challenge - What Do Programmers Do?
+// Q1: Computers look at code one line at a time. True.
+// Q2: Programmers and developers are totally different professions with very little in common. False.
+// Q3: Programmers take ideas and break them down into little tiny steps the computer can understand. True.
+
+
