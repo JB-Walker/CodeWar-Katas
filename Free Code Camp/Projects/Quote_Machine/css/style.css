@@ -12,13 +12,12 @@ img {
 #fortuneBox {
     font-family: 'Dancing Script', cursive;
     color: rgb(212, 93, 93);
-    font-size: 1vw;
     position: absolute;
     top: 35vh;
     bottom: 45vh;
     left: 31vw;  
     width: 33vw;
     height: 30vh;
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
 }
