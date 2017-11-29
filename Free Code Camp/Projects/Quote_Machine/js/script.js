@@ -170,6 +170,7 @@ const fortunes = [
 ];
 
 // document.getElementById('clicker2').onClick = flipFortune();
+document.getElementById("clicker1").addEventListener("click", flipFortune);
 
 
 function flipFortune() {
