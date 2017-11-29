@@ -1719,4 +1719,4 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q2: Programmers and developers are totally different professions with very little in common. False.
 // Q3: Programmers take ideas and break them down into little tiny steps the computer can understand. True.
 
-
+// 295: Project #2 - "Build a Random Quote Machine Complete" submitted
