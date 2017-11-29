@@ -14,10 +14,9 @@ img {
     color: rgb(212, 93, 93);
     position: absolute;
     top: 35vh;
-    bottom: 45vh;
     left: 31vw;  
-    width: 33vw;
-    height: 30vh;
+    width: 37vw;
+    height: 10vh;
     font-size: 2.5vw;
     text-align: center;
 }

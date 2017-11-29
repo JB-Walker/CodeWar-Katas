@@ -169,8 +169,7 @@ const fortunes = [
     'Your smile brings happiness to everyone you meet.'
 ];
 
-document.getElementById('clicker1').onClick = flipFortune();
-document.getElementById('clicker2').onClick = flipFortune();
+// document.getElementById('clicker2').onClick = flipFortune();
 
 
 function flipFortune() {
