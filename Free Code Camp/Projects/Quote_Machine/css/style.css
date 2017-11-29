@@ -6,17 +6,16 @@ img {
     display: block;
     margin: 0 auto;
     width: 80vw;
-
 }
 
 p {
     font-family: 'Dancing Script', cursive;
-    color: #000000;
-    font-size: 2em;
+    color: rgb(212, 93, 93);
+    font-size: 1vw;
     position: absolute;
-    top: 27vh;
-    left: 33vw;  
+    top: 31vh;
+    left: 31vw;  
     width: 33vw;
     height: 30vh;
-    font-size: 1vw;
+    font-size: 2vw;
 }
