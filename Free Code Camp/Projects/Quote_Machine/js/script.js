@@ -48,11 +48,9 @@ const fortunes = [
     'Hone your competitive instincts.',
     'Human evolution: “wider freeway" but narrower viewpoints.',
     'If winter comes, can spring be far behind?',
-    'If you are afraid to shake the dice, you will never throw a six.',
     'If you feel you are right, stand firmly by your convictions.',
     'If you have something good in your life, don\'t let it go!',
     'If you have something worth fighting for, then fight for it.',
-    'If you refuse to accept anything but the best, you very often get it.',
     'If you wish to know the mind of a man, listen to his words',
     'If you\'re happy, you\'re successful.',
     'If your desires are not extravagant, they will be rewarded.',
@@ -103,7 +101,6 @@ const fortunes = [
     'There is no greater pleasure than seeing your loved ones prosper.',
     'There will be a happy romance for you shortly.',
     'To be old and wise, you must first be young and stupid.',
-    'Today it\'s up to you to create the peacefulness you long for.',
     'We can\'t help everyone. But everyone can help someone.',
     'Wealth awaits you very soon.',
     'Welcome the change coming into your life.',
@@ -123,7 +120,6 @@ const fortunes = [
     'You cannot love life until you live the life you love.',
     'You have a deep appreciation of the arts and music.',
     'You have a deep interest in all that is artistic.',
-    'You have a flair for adding a fanciful dimension to any story.',
     'You have an unusual equipment for success, use it properly.',
     'You learn from your mistakes... You will learn a lot today.',
     'You must try, or hate yourself for not trying.',
@@ -144,8 +140,6 @@ const fortunes = [
     'You will soon witness a miracle.',
     'You will take a pleasant journey to a place far away.',
     'You will travel to many exotic places in your lifetime.',
-    'You\'re true love will show himself to you under the moonlight.',
-    'Your ability for accomplishment will be followed by success.',
     'Your ability for accomplishment will follow with success.',
     'Your emotional nature is strong and sensitive.',
     'Your fondest dream will come true within this year.',
@@ -157,9 +151,7 @@ const fortunes = [
     'Your smile brings happiness to everyone you meet.'
 ];
 
-// document.getElementById('clicker2').onClick = flipFortune();
-document.getElementById("clicker1").addEventListener("click", flipFortune);
-
+document.getElementById("clicker").addEventListener("click", flipFortune);
 
 function flipFortune() {
     const newFortune = Math.floor(Math.random() * fortunes.length);
