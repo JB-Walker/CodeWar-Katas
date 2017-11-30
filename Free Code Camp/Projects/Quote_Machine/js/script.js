@@ -157,3 +157,13 @@ function flipFortune() {
     const newFortune = Math.floor(Math.random() * fortunes.length);
     document.getElementById('fortuneBox').innerHTML = fortunes[newFortune];
 }
+
+function tweet() {
+    window.open(
+      "https://twitter.com/intent/tweet?text=" +
+      $("#title").html() +
+      "%0A" +
+      $("#subtitle").html()
+    );
+  }
+  
