@@ -1562,42 +1562,42 @@ function dropElements(arr, func) {
 }
 dropElements([1, 2, 3], function(n) {return n < 3; });
 
-// 270: Video Challenge - Computer Basics: The 4 Basic Parts of a Computer
+// 270: Computer Basics - The 4 Basic Parts of a Computer
 // Q1: The computer only has 3 basic parts. False. 4.
 // Q2: CPU stands for Central Processing Unit. True
 // Q3: All parts can access the memory. False. Only the CPU
 
-// 271: Video Challenge - Computer Basics: More Computer Hardware
+// 271: Computer Basics - More Computer Hardware
 // Q1: The power supply isn't a necessary part of a computer since it's not one of the 4 main parts. False.
 // Q2: A motherboard connects all of the working parts in a computer. True.
 // Q3: Memory is usually categorized into 3 parts. False.
 
-// 272: Video Challenge - Computer Basics: Chips and Moore's Law
+// 272: Computer Basics - Chips and Moore's Law
 // Q1: Chips have transistors, little switches that can store a 1 or a 0. True.
 // Q2: Moore's Law is the observation that technology doubles in speed every year. False. Every two years.
 // Q3: Moore's Law has slowed down in recent years. True.
 
-// 273: Video Challenge - Computer Basics: Intro to Binary Code
+// 273: Computer Basics - Intro to Binary Code
 // Q1: 1's and 0's are how we talk about little switches being on and off. True.
 // Q2: 1 means on, and 0 means off. True.
 // Q3: There are some things which cannot be translated into binary. False.
   
-// 274: Video Challenge - Computer Basics: Decoding a Binary Number
+// 274: Computer Basics - Decoding a Binary Number
 // Q1: 1 == on and 0 == off. True.
 // Q2: Not all numbers can be expressed through binary numeral notation. False.
 // Q3: If we have the opportunity to include base 2 to every given power, we can create any number. True.
 
-// 275: Video Challenge - Computer Basics: Binary Bytes
+// 275: Computer Basics - Binary Bytes
 // Q1: All digits, letters, and symbols have a binary byte translation. True (less than 255).
 // Q2: It's good practice to memorize these. False.
 // Q3: Everything can be expressed in binary, even pictures, sound, and video. True.
 
-// 276: Video Challenge - Computer Basics: How To Measure Data Size
+// 276: Computer Basics - How To Measure Data Size
 // Q1: A Byte is the smallest possible amount of data. False.
 // Q2: A bit is the smallest possible amount of data. True.
 // Q3: A Kilobyte is 1024 Bytes. True.
 
-// 277: Video Challenge - Computer Basics: Measuring Data Speed
+// 277: Computer Basics - Measuring Data Speed
 // Q1: Data speed is measured in bits per second. True.
 // Q2: Data size is measured in bits. False.
 
@@ -1647,17 +1647,17 @@ function binaryAgent(str) {
 }
 binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 01100010 01101111 01101110 01100110 01101001 01110010 01100101 01110011 00100000 01100110 01110101 01101110 00100001 00111111");
 
-// 280: Video Challenge - Computer Basics: Types of Computers
+// 280: Computer Basics - Types of Computers
 // Q1: The most common type of computer is a Personal Computer, a PC. True.
 // Q2: What makes Supercomputers 'super' is when multiple CPUs work on one problem, called parallel processing. True.
 // Q3: Microcontrollers and workstation computers can perform roughly the same tasks. False.
 
-// 281: Video Challenge - Computer Basics: More on the Motherboard
+// 281: Computer Basics - More on the Motherboard
 // Q1: A motherboard must connect the CPU, the memory, and the network. False.
 // Q2: Expansion slots allow users to add capabilities to a computer. True.
 // Q3: Ports help the computer access information. True.
 
-// 282: Video Challenge - Computer Basics: Data Networks
+// 282: Computer Basics - Data Networks
 // Q1: You can connect to a LAN from far away. False.
 // Q2: VPNs (Virtual Private Networks) and WANs (Wide Area Networks) do just about the same thing. True.
 // Q3: VPNs and WANs both use the internet to connect LANs. False.
@@ -1672,56 +1672,56 @@ function truthCheck(collection, pre) {
 truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, 
 {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
 
-// 284: Video Challenge - Computer Basics: IP Addresses
+// 284: Computer Basics - IP Addresses
 // Q1: IP addresses are necessary to use and participate in the internet. True.
 // Q2: IP addresses are determined and assigned based on location. True.
 
-// 285: Video Challenge - Computer Basics: How the Internet Works
+// 285: Computer Basics - How the Internet Works
 // Q1: Your computer sends a request for information. True.
 // Q2: The Internet can be broken by a large chunk of routers and servers going down. False.
 
-// 286: Video Challenge - Computer Basics: Software
+// 286: Computer Basics - Software
 // Q1: Safari, Chrome, and Firefox are all examples of application software. True.
 
 // 287: Project 1 - Tribute
 
-// 288: Video Challenge - Computer Basics: Content Delivery Networks
+// 288: Computer Basics - Content Delivery Networks
 // Q1: Content Delivery Networks are a service you can buy through your internet service provider 
 //   to increase your network connectivity. False.
 // Q2: CDNs are popular and wide-reaching, and you've probably used one as a website user many 
 //   times without even knowing it. The end result is that your experience was faster than it could 
 //   have been without the CDNs services. True.
 
-// 289: Video Challenge - Analog vs Digital and File Compression
+// 289: Computer Basics - Analog vs Digital and File Compression
 // Q1: Digital files can be made from analog sounds and analog sounds can be made from digital files. True.
 // Q2: Compression is not worth it, because it lessens quality. False.
 
-// 290: Video Challenge - Routers and Packets
+// 290: Computer Basics - Routers and Packets
 // Q1: Routers have to know the whole internet. False.
 // Q2: Packets are little pieces of binary code. True.
 // Q3: Packets have to be sent in one piece. False.
 
-// 291: Video Challenge - Source Code
+// 291: Computer Basics - Source Code
 // Q1: Source code is a text document. True.
 // Q2: JavaScript is a compiled language. False.
 // Q3: Free Code Camp is open source. True.
 
-// 292: Video Challenge - Console Log
+// 292: Computer Basics - Console Log
 // Q1: The console serves only small, unnecessary purposes. False.
 // Q2: You can console strings (sets of words), numbers, and booleans (true/false statements). True.
 
-// 293: Video Challenge - Variables In Code
+// 293: Computer Basics - Variables In Code
 // Q1: Variables are useful in coding languages like JavaScript. True.
 // Q2: Variables can't stand for anything that isn't a string, number, or boolean. False.
 
-// 294: Video Challenge - What Do Programmers Do?
+// 294: Computer Basics - What Do Programmers Do?
 // Q1: Computers look at code one line at a time. True.
 // Q2: Programmers and developers are totally different professions with very little in common. False.
 // Q3: Programmers take ideas and break them down into little tiny steps the computer can understand. True.
 
 // 295: Project #2 - "Build a Random Quote Machine Complete" submitted
 
-// 296: Video Challenge - Computer Security
+// 296: Computer Basics - Computer Security
 // Q1: Passwords should be shared with all of your accounts. False.
 // Q2: If you don't trust a site or an email, open a new browser and re-enter the intended location. True.
 // Q3: Keeping software updated will help protect your computer and your information. True.
