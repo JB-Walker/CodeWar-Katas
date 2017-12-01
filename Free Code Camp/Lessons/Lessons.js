@@ -1720,3 +1720,9 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q3: Programmers take ideas and break them down into little tiny steps the computer can understand. True.
 
 // 295: Project #2 - "Build a Random Quote Machine Complete" submitted
+
+// 296: Video Challenge - Computer Security
+// Q1: Passwords should be shared with all of your accounts. False.
+// Q2: If you don't trust a site or an email, open a new browser and re-enter the intended location. True.
+// Q3: Keeping software updated will help protect your computer and your information. True.
+
