@@ -16,4 +16,13 @@ Of other textile materials
 Wall banners, of man-made fibers
 Other
 Men's or boys' overcoats, carcoats, capes, cloaks, anoraks (including ski-jackets), windbreakers and   similar articles (including padded, sleeveless jackets), other than those of heading 6203:
+Overcoats, carcoats, capes, cloaks and similar coats:
+Of wool or fine animal hair
+Men's (434)
+Boys' (434)
+Of cotton:
+Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35   percent or more by weight; containing 10 percent or more by weight of down (353)
+Other
+Raincoats:
+Men's (334)
 
