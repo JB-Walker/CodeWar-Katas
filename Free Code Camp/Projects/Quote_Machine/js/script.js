@@ -152,18 +152,15 @@ const fortunes = [
 ];
 
 document.getElementById("clicker").addEventListener("click", flipFortune);
-
 function flipFortune() {
     const newFortune = Math.floor(Math.random() * fortunes.length);
     document.getElementById('fortuneBox').innerHTML = fortunes[newFortune];
 }
 
+document.getElementById("tweeter").addEventListener("click", tweet);
 function tweet() {
+    const quote = document.getElementById('fortuneBox').innerHTML;
     window.open(
-      "https://twitter.com/intent/tweet?text=" +
-      $("#title").html() +
-      "%0A" +
-      $("#subtitle").html()
+      "https://twitter.com/intent/tweet?text=" + quote;
     );
   }
-  
