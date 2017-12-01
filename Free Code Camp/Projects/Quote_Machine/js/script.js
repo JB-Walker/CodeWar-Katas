@@ -1,3 +1,5 @@
+$(document).ready(function() {    
+
 const fortunes = [
     'A big fortune will descend upon you this year.',
     'A chance meeting opens new doors to success and friendship.',
@@ -163,4 +165,4 @@ function tweet() {
     window.open(
       "https://twitter.com/intent/tweet?text=" + quote;
     );
-  }
+}
