@@ -1726,3 +1726,6 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q2: If you don't trust a site or an email, open a new browser and re-enter the intended location. True.
 // Q3: Keeping software updated will help protect your computer and your information. True.
 
+// 297: The DOM - What's the Document Object Model?
+// Q1: The DOM is complex and difficult to access. False.
+// Q2: The DOM is an API that is a part of the browser. True.
