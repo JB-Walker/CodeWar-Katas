@@ -10,11 +10,9 @@ const tariffText = [
 "Certified hand-loomed and folklore pillow covers of wool or fine animal hair",
 "Of other textile materials",
 "Wall banners, of man-made fibers",
-Other
-Men's (434)
-Boys' (434)
+"Men's (434)",
+"Boys' (434)",
 Of cotton:
-Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35   percent or more by weight; containing 10 percent or more by weight of down (353)
 Other
 Raincoats:
 Men's (334)
