@@ -6,14 +6,11 @@ const tariffText = [
 "Other gloves, mittens and mitts, all the foregoing specially designed for use in sports, including   ski and snowmobile gloves, mittens and mitts".
 "Other gloves, mittens and mitts, all the fore- going specially designed for use in sports, including   ski and snowmobile gloves, mittens and mitts".
 "Other gloves, mittens and mitts, all the fore- going specially designed for use in sports, including   ski and snowmobile gloves, mittens and mitts".
-Wall hangings of jute
-Certified hand-loomed and folklore pillow covers of wool or fine animal hair
-Of other textile materials
-Wall banners, of man-made fibers
+"Wall hangings of jute",
+"Certified hand-loomed and folklore pillow covers of wool or fine animal hair",
+"Of other textile materials",
+"Wall banners, of man-made fibers",
 Other
-Men's or boys' overcoats, carcoats, capes, cloaks, anoraks (including ski-jackets), windbreakers and   similar articles (including padded, sleeveless jackets), other than those of heading 6203:
-Overcoats, carcoats, capes, cloaks and similar coats:
-Of wool or fine animal hair
 Men's (434)
 Boys' (434)
 Of cotton:
