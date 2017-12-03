@@ -5,9 +5,7 @@ const tariffText = [
 "Containing 70 percent or more by weight of silk or silk waste",
 "Other gloves, mittens and mitts, all the foregoing specially designed for use in sports, including   ski and snowmobile gloves, mittens and mitts".
 "Other gloves, mittens and mitts, all the fore- going specially designed for use in sports, including   ski and snowmobile gloves, mittens and mitts".
-"Other gloves, mittens and mitts, all the fore- going specially designed for use in sports, including   ski and snowmobile gloves, mittens and mitts".
 "Wall hangings of jute",
-"Certified hand-loomed and folklore pillow covers of wool or fine animal hair",
 "Of other textile materials",
 "Wall banners, of man-made fibers",
 "Men's (434)",
@@ -21,5 +19,4 @@ const tariffText = [
 "Other:",
 "Men's (334)",
 "Containing 15 percent or more by weight of down and waterfowl plumage",
-and of which down comprises 35   percent or more by weight; containing 10 percent or more by weight of down (653)
 ]
