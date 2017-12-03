@@ -1729,3 +1729,7 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // 297: The DOM - What's the Document Object Model?
 // Q1: The DOM is complex and difficult to access. False.
 // Q2: The DOM is an API that is a part of the browser. True.
+
+// 298: The DOM - Style in the Header, Script in the Footer
+// Q1: Placing the style in the header and the script in the footer ensures the page is loaded for the user as you want it to appear. True.
+// Q2: The CSS link should go in the header and the JS link should go in the footer. If you don't do it just that way, the webpage will crash. False.
