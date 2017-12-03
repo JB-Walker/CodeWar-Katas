@@ -14,8 +14,7 @@ const tariffText = [
 "Boys' (434)",
 "Of cotton:","
 "Other",
-Men's (334)
-Boys' (334)
+"Men's (334)",
 Other:
 Corduroy:
 Men's (334)
