@@ -15,13 +15,11 @@ const tariffText = [
 "Of cotton:","
 "Other",
 "Men's (334)",
-Other:
-Corduroy:
-Men's (334)
+"Other:",
+"Men's (334)",
 Boys' (334)
 Other:
 Men's (334)
-Boys' (334)
 Of man-made fibers:
 Containing 15 percent or more by weight of down and waterfowl plumage and of which down comprises 35   percent or more by weight; containing 10 percent or more by weight of down (653)
 Other:
