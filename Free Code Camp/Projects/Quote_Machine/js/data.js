@@ -6,7 +6,6 @@ const tariffText = [
 "Wall banners, of man-made fibers",
 "Men's (434)",
 "Boys' (434)",
-"Of cotton:","
 "Other",
 "Men's (334)",
 "Other:",
