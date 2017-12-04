@@ -13,13 +13,9 @@ const tariffText = [
     Total domestic exports	17,366	19,475	19,251	19,705	19,992	287	1.5
     Re-exports	2,350	2,897	3,221	3,619	3,924	305	8.4
     Total U.S. exports (domestic exports and re-exports)	19,716	22,372	22,472	23,324	23,916	592	2.5
-    China	42,195	44,884	45,066	46,469	47,204	735	1.6
-    Mexico	5,540	5,881	5,784	5,829	5,975	146	2.5
-    Vietnam	6,216	7,088	7,519	8,609	9,820	1,211	14.1
-    India	5,855	6,468	6,420	6,903	7,383	480	7
-    Canada	2,225	2,321	2,414	2,323	2,302	-21	-0.9
-    Indonesia	4,876	5,567	5,421	5,460	5,282	-178	-3.3
-    Bangladesh	4,123	4,725	4,675	5,160	5,054	-106	-2.1
-    Honduras	2,500	2,727	2,698	2,625	2,725	100	3.8
-    Pakistan	3,184	3,509	3,167	3,222	3,229	7	0.2, 0.33
+    China	42,195	44,884	45,066	46,469	47,204	735	1.6]
+      <title>Quote Machine of Sorts</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
 ]
