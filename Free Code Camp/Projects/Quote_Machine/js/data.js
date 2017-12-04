@@ -2,8 +2,6 @@
 const tariffText = [
     ['U.S.', 'exports', 'of', 'domestic', 'exports', 'merchandise'],
     ['China', '1,083', '1,242',	'1,243', '1,350', '1,231', '-119', '-8.8'],
-    Mexico	3,680	4,065	4,163	4,422	4,629	208	4.7
-    Vietnam	41	43	67	62	96	34	54.7
     India	141	162	167	165	171	7	4
     Canada	3,430	3,710	3,917	3,905	3,906	1	(a)
     Indonesia	113	132	142	178	167	-10	-5.8
@@ -15,7 +13,6 @@ const tariffText = [
     Total domestic exports	17,366	19,475	19,251	19,705	19,992	287	1.5
     Re-exports	2,350	2,897	3,221	3,619	3,924	305	8.4
     Total U.S. exports (domestic exports and re-exports)	19,716	22,372	22,472	23,324	23,916	592	2.5
-    U.S. general imports:	 	 	 	 	 	 	 
     China	42,195	44,884	45,066	46,469	47,204	735	1.6
     Mexico	5,540	5,881	5,784	5,829	5,975	146	2.5
     Vietnam	6,216	7,088	7,519	8,609	9,820	1,211	14.1
