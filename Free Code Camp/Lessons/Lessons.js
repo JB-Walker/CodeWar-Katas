@@ -1733,3 +1733,7 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // 298: The DOM - Style in the Header, Script in the Footer
 // Q1: Placing the style in the header and the script in the footer ensures the page is loaded for the user as you want it to appear. True.
 // Q2: The CSS link should go in the header and the JS link should go in the footer. If you don't do it just that way, the webpage will crash. False.
+
+// 299: JavaScript Lingo - MDN and Documentation
+// Q1: Documentation is not a good way to learn a programming language. False.
+// q2: Mozilla Developer Network is a great resource that should be referenced regularly. True.
