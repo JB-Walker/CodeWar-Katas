@@ -7,9 +7,7 @@ const tariffText = [
     [5, 'Total domestic exports	17366	19475	19251	19705	19992	287	1.5'],
     [6, 'Re-exports	2,350	2,897	3,221	3,619	3,924	305	8.4'],
     [7, 'Total U.S. exports (domestic exports and re-exports)	19,716	22,372	22,472	23,324	23,916	592	2.5'],
-    China	42,195	44,884	45,066	46,469	47,204	735	1.6]
+    [8, 'China	42,195	44,884	45,066	46,469	47,204	735	1.6],
       <title>Quote Machine of Sorts</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
   </div>
- 
 ]
