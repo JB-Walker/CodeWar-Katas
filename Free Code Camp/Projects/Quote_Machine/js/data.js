@@ -1,8 +1,8 @@
 // Data to be added to table
 const tariffText = [
-    ['U.S.', 'exports', 'of', 'domestic', 'exports', 'merchandise'],
+    [1, 'U.S.', 'exports', 'of', 'domestic', 'exports', 'merchandise'],
     ['China', '1,083', '1,242',	'1,243', '1,350', '1,231', '-119', '-8.8'],
-    India	141	162	167	
+    [India	141	162	167	
     Canada	3,430	3,710	3,917	3,905	3,906
  
     Total domestic exports	17,366	19,475	19,251	19,705	19,992	287	1.5
