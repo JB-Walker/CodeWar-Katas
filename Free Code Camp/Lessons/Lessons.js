@@ -1737,3 +1737,7 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // 299: JavaScript Lingo - MDN and Documentation
 // Q1: Documentation is not a good way to learn a programming language. False.
 // q2: Mozilla Developer Network is a great resource that should be referenced regularly. True.
+
+// 300: JavaScript Lingo - Value Types
+// Q1: Numbers can include decimals. True.
+// Q2: If a value is text that isn't the word true or false, it's a string. False.
