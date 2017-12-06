@@ -16,6 +16,12 @@ function bruteForceDetected (loginRequest) {
       } else {
           loginRequest.ip++;
       }
+  } else {
+    if (loginRequest.loginAttempt.successful) {
+        loginRequest.ip = 0;
+    } else {
+        loginRequest.ip = 1;        
+    }
   }
 }
 
