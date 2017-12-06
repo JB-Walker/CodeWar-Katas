@@ -9,15 +9,15 @@
 // Note: A successful login should reset the number of counts.
 
 function bruteForceDetected (loginRequest) {
-  const ip = loginRequest.loginAttempt.sourceIP.toString();
+  const ip = loginRequest.sourceIP.toString();
   if (loginRequest.hasOwnProperty(ip)) {
-      if (loginRequest.loginAttempt.successful) {
+      if (loginRequest.successful) {
           loginRequest.ip = 0;
       } else {
           loginRequest.ip++;
       }
   } else {
-    if (loginRequest.loginAttempt.successful) {
+    if (loginRequest.successful) {
         loginRequest.ip = 0;
     } else {
         loginRequest.ip = 1;        
@@ -28,6 +28,5 @@ function bruteForceDetected (loginRequest) {
   } else {
       return true;
   }
-
 }
 
