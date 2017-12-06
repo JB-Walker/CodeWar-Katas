@@ -23,5 +23,11 @@ function bruteForceDetected (loginRequest) {
         loginRequest.ip = 1;        
     }
   }
+  if (loginRequest.ip < 20) {
+      return false;
+  } else {
+      return true;
+  }
+
 }
 
