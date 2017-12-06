@@ -8,3 +8,14 @@
 // The bruteForceDetected function should return true when the IP should be blocked and false otherwise.
 // Note: A successful login should reset the number of counts.
 
+function bruteForceDetected (loginRequest) {
+  const ip = loginRequest.loginAttempt.sourceIP.toString();
+  if (loginRequest.hasOwnProperty(ip)) {
+      if (loginRequest.loginAttempt.successful) {
+          loginRequest.ip = 0;
+      } else {
+          loginRequest.ip++;
+      }
+  }
+}
+
