@@ -8,3 +8,28 @@
 // solve("((1)23(45))(aB)", 6) = 9
 // solve("((1)23(45))(aB)", 11) = 14
 // solve("((>)|?(*'))(yZ)", 11) = 14
+//
+// Input will consist of letters, numbers and special characters, but no spaces. 
+// The only brackets will be ( and ).
+
+function solve (str, idx) {
+    if (str[idx] !== '(' && str[idx] !== ')') {
+        return -1;
+    }
+    let overallCount = 0;
+    let idxCount = -1;
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === '(') {
+            overallCount++;
+            if (i === idx) {
+                idxCount = overallCount;
+            }
+        } else if (str[i] === ')') {
+            overallCount--;
+            if (overallCount === idxCount) {
+                return i;
+            }      
+        }
+    }
+    return -1;
+}
