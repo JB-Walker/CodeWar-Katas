@@ -28,7 +28,7 @@ function solve (str, idx) {
         } else if (str[i] === ')') {
             overallCount--;
             console.log(i + ' = ' + overallCount);            
-            if (overallCount === idxCount) {
+            if (overallCount - 1 === idxCount) {
                 return i;
             }      
         }
