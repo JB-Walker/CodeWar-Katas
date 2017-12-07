@@ -24,11 +24,12 @@ function solve (str, idx) {
             console.log(i + ' = ' + overallCount);            
             if (i === idx) {
                 idxCount = overallCount;
+                console.log('idxcount = ' + idxCount);
             }
         } else if (str[i] === ')') {
             overallCount--;
             console.log(i + ' = ' + overallCount);            
-            if (overallCount - 1 === idxCount) {
+            if (overallCount - 1 == idxCount) {
                 return i;
             }      
         }
