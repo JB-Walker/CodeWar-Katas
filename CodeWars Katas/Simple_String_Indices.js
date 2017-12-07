@@ -29,7 +29,7 @@ function solve (str, idx) {
         } else if (str[i] === ')') {
             overallCount--;
             console.log(i + ' = ' + overallCount);            
-            if (overallCount - 1 == idxCount) {
+            if (overallCount + 1 == idxCount) {
                 return i;
             }      
         }
