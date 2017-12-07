@@ -31,5 +31,5 @@ function solve (str, idx) {
             }      
         }
     }
-    return -1;
+    return "error";
 }
