@@ -1,9 +1,10 @@
-<strong>This repo contains some of the Katas I solved in CodeWars. </strong><br>
+<strong>This repo contains the Katas I solved in CodeWars. </strong><br>
 <br>
 Solved <br>
 ------------------------------------------- <br>
 5 kyu --- Mystery Function 1 <br>
 5 kyu --- Directions Reduction <br>
+6 jyu --- Simple String Indices <br>
 6 kyu --- Stop gninnipS My sdroW! <br>
 6 kyu --- Counting Duplicates <br>
 6 kyu --- IQ Test <br>
