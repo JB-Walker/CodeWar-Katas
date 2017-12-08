@@ -24,7 +24,7 @@ Front-End Development Certification<br>
   <li>00/09 Advanced Algorithm Scripting</li>
 
   ```html
-  <li>00/04 Advanced Front End Development Projects </li>
+  00/04 Advanced Front End Development Projects
   ```
 
 </ul>
@@ -34,8 +34,8 @@ Data Visualization Certification<br>
 <ul>
 
   ```html
-  <li>00/05 React Projects</li>
-  <li>00/05 Data Visualization Projects</li>
+  00/05 React Projects
+  00/05 Data Visualization Projects
   ```
 
 </ul>
@@ -49,8 +49,8 @@ Back-End Development Certification<br>
   <li>00/01 MongoDB</li>
 
   ```html
-  <li>00/06 API Projects</li>
-  <li>00/06 Dynamic Web Application Projects</li>
+  00/06 API Projects
+  00/06 Dynamic Web Application Projects
   ```
 
 </ul>
