@@ -8,16 +8,16 @@ Front-End Development Certification<br>
   <li>18/18 jQuery</li>
 
   ```html
-  <li>02/03 Basic Front-End Development Projects ###### Skipped 1</li>
+  02/03 Basic Front-End Development Projects ###### Skipped 1 ######
   ```
 
-  <li>104/104 Basic Javascript</li>
+  <li>104/104 Basic JavaScript</li>
   <li>13/13 Object Oriented and Functional Programming</li>
   <li>17/17 Basic Algorithm Scripting</li>
   <li>07/07 JSON APIs and AJAX</li>
 
   ```html
-  <li>01/04 Intermediate Front End Development Projects ###### Skipped 3</li>
+  01/04 Intermediate Front End Development Projects ###### Skipped 3 ######
   ```
 
   <li>20/21 Intermediate Algorithm Scripting</li>
@@ -57,9 +57,9 @@ Back-End Development Certification<br>
 <br>
 
 <strong>
-===============<br>
+=============<br>
 02/32 Total Projects<br>
-===============<br>
+=============<br>
 </strong>
 <br>
 
