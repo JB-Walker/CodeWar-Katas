@@ -19,7 +19,7 @@ Front-End Development Certification<br>
 Video Challenges<br>
 <ul>
   <li>22/22 Computer Basics</li>
-  <li></li>
+  <li>02/02 The DOM</li>
   <li></li>
   <li></li>
   <li></li>
