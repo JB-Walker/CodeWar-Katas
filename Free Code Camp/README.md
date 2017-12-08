@@ -18,19 +18,21 @@ Front-End Development Certification<br>
 </ul>
 <br>
 
-Front-End Development Certification<br>
+Data Visualization Certification<br>
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li style="color:Blue;">00/05 React Projects</li>
+  <li>00/05 Data Visualization Projects</li>
+</ul>
+<br>
+
+Back-End Development Certification<br>
+<ul>
+  <li>00/02 Automated Testing and Debugging</li>
+  <li>00/01 Git</li>
+  <li>00/05 Node.js and Express.js</li>
+  <li>00/01 MongoDB</li>
+  <li>00/06 API Projects</li>
+  <li>00/06 Dynamic Web Application Projects</li>
 </ul>
 <br>
 
