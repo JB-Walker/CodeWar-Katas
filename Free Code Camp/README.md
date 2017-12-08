@@ -15,3 +15,13 @@ Front-End Development Certification<br>
   <li>00/09 Advanced Algorithm Scripting</li>
   <li>00/04 Advanced Front End Development Projects </li>
 </ul>
+<br>
+Video Challenges<br>
+<ul>
+  <li>22/22 Computer Basics</li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
