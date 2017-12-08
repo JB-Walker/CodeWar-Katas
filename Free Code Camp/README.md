@@ -21,7 +21,7 @@ Video Challenges<br>
   <li>22/22 Computer Basics</li>
   <li>02/02 The DOM</li>
   <li>04/09 JavaScript Lingo</li>
-  <li></li>
+  <li>00/09 Chrome Developer Tools</li>
   <li></li>
   <li></li>
 </ul>
