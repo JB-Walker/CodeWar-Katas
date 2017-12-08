@@ -20,7 +20,7 @@ Front-End Development Certification<br>
 
 Data Visualization Certification<br>
 <ul>
-  <li style="color:Blue">00/05 React Projects</li>
+  ```<li>00/05 React Projects</li>```
   <li>00/05 Data Visualization Projects</li>
 </ul>
 <br>
