@@ -1,5 +1,6 @@
 <strong>FREE CODE CAMP LESSON PROGRESS</strong><br>
 <br>
+
 Front-End Development Certification<br>
 <ul>
   <li>60/60 HTML5 and CSS</li>
@@ -10,18 +11,35 @@ Front-End Development Certification<br>
   <li>13/13 Object Oriented and Functional Programming</li>
   <li>17/17 Basic Algorithm Scripting</li>
   <li>07/07 JSON APIs and AJAX</li>
-  <li>00/04 Intermediate Front End Development Projects ###### Skipped 4 ######</li>
+  <li>01/04 Intermediate Front End Development Projects ###### Skipped 3 ######</li>
   <li>20/21 Intermediate Algorithm Scripting</li>
   <li>00/09 Advanced Algorithm Scripting</li>
   <li>00/04 Advanced Front End Development Projects </li>
 </ul>
 <br>
+
+Front-End Development Certification<br>
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+<br>
+
 Video Challenges<br>
 <ul>
   <li>22/22 Computer Basics</li>
   <li>02/02 The DOM</li>
   <li>04/09 JavaScript Lingo</li>
   <li>00/09 Chrome Developer Tools</li>
-  <li></li>
-  <li></li>
+  <li>00/02 Big O Notation</li>
 </ul>
+<br>
