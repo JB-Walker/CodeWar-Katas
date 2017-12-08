@@ -16,7 +16,7 @@ Solved <br>
 Progress<br>
 ------------------------------------------- <br>
 Rank: <strong>6 kyu</strong><br>
-Honor: <strong>68</strong><br>
-Leaderboard Position: <strong>#102,080</strong><br>
-Honor Percentile: <strong>74th</strong><br>
-Total Completed Kata: <strong>7</strong><br>
+Honor: <strong>106</strong><br>
+Leaderboard Position: <strong>#86,717</strong><br>
+Honor Percentile: <strong>80th</strong><br>
+Total Completed Kata: <strong>8</strong><br>
