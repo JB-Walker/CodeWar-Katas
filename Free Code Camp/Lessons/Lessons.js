@@ -1750,3 +1750,6 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q1: Arrays are easy to spot because of their [square brackets]. True.
 // Q2: Objects in JavaScript are the same as objects in every other language. False.
 
+// 303: JavaScript Lingo - Finding and Indexing Data in Arrays
+// Q1: The first entry in array has the index of 1. False.
+// Q2: Arrays must contain all of the same type of information, like booleans. False.
