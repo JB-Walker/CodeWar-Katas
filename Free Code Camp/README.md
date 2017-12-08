@@ -20,7 +20,7 @@ Video Challenges<br>
 <ul>
   <li>22/22 Computer Basics</li>
   <li>02/02 The DOM</li>
-  <li></li>
+  <li>04/09 JavaScript Lingo</li>
   <li></li>
   <li></li>
   <li></li>
