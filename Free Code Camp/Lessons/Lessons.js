@@ -1745,3 +1745,8 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // 301: JavaScript Lingo - Variables & camelCase
 // Q1: camelCase is mandatory in JavaScript. False.
 // Q2: Variables can only hold information that is a boolean, string, or number. False.
+
+// 302: JavaScript Lingo - Arrays & Objects
+// Q1: Arrays are easy to spot because of their [square brackets]. True.
+// Q2: Objects in JavaScript are the same as objects in every other language. False.
+
