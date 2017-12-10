@@ -1,8 +1,8 @@
 $(document).ready(function() {
     var api = "https://fcc-weather-api.glitch.me/api/current?";
     var lat, lon;
-    var tempUnit = 'C';
-    var currentTempInCelsius;
+    var tempUnit = 'F';
+    var currentTempInFarenheight;
 
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (position) {
