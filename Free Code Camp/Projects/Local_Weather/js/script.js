@@ -10,5 +10,7 @@ $(document).ready(function() {
         var lon = "lon=" + position.coords.longitude;
         getWeather(lat, lon);
         });
-    }
+    } else {
+        console.log("Geolocation is not supported by this browser.");
+      }
 }
