@@ -3,8 +3,12 @@ $(document).ready(function() {
     var lat, lon;
     var tempUnit = 'C';
     var currentTempInCelsius;
-    
-    if (navigator.geolocation) {
 
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function (position) {
+        var lat = "lat=" + position.coords.latitude;
+        var lon = "lon=" + position.coords.longitude;
+        getWeather(lat, lon);
+        });
     }
 }
