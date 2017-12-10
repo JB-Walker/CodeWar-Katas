@@ -1753,3 +1753,9 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // 303: JavaScript Lingo - Finding and Indexing Data in Arrays
 // Q1: The first entry in array has the index of 1. False.
 // Q2: Arrays must contain all of the same type of information, like booleans. False.
+
+// 304: JavaScript Lingo - Manipulating Data
+// Q1: Whenever there's a specific manipulation you want to apply, you should check the methods before writing your own code. True.
+// Q2: When writing your own functions, you should keep your code clean by only using minimal amounts of methods. False.
+
+
