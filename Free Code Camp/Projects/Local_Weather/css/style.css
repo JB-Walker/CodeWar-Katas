@@ -5,7 +5,9 @@ body {
   }
 
   .status p {
-    font-size: 1.8em;
     text-transform: capitalize;
   }
-  
+
+  header {
+    margin-bottom: 30px;
+  }
