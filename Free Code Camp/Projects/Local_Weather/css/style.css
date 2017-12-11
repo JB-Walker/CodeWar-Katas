@@ -3,3 +3,9 @@ body {
     color: #fff;
     background-color: #161616;
   }
+
+  .status p {
+    font-size: 1.8em;
+    text-transform: capitalize;
+  }
+  
