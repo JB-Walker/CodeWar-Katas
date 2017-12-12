@@ -1,24 +1,2 @@
-body {
-    font-family: 'Roboto';
-  }
 
-  .status p {
-    text-transform: capitalize;
-  }
-
-  header {
-    margin-bottom: 30px;
-  }
-
-  .temp{
-    cursor:pointer;
-  }
-
-  .temp:hover{
-    color:#005096;
-  }
-
-  .all-icon {
-    margin-bottom: 20px;
-  }
 
