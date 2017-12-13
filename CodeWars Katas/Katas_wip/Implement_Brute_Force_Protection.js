@@ -32,3 +32,24 @@ function bruteForceDetected (loginRequest) {
 
 // FAILING -- WIP
 
+function bruteForceDetected (loginRequest) {
+    const ip = loginRequest.sourceIP.toString();
+    if (loginRequest.hasOwnProperty(ip)) {
+        if (loginRequest.successful) {
+            loginRequest.ip = 0;
+        } else {
+            loginRequest.ip++;
+        }
+    } else {
+      if (loginRequest.successful) {
+          loginRequest.ip = 0;
+      } else {
+          loginRequest.ip = 1;        
+      }
+    }
+    if (loginRequest.ip < 20) {
+        return false;
+    } else {
+        return true;
+    }
+  }
