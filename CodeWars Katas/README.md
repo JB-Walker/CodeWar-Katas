@@ -4,7 +4,7 @@ Solved <br>
 ------------------------------------------- <br>
 5 kyu --- Mystery Function 1 <br>
 5 kyu --- Directions Reduction <br>
-6 jyu --- Simple String Indices <br>
+6 kyu --- Simple String Indices <br>
 6 kyu --- Stop gninnipS My sdroW! <br>
 6 kyu --- Counting Duplicates <br>
 6 kyu --- IQ Test <br>
