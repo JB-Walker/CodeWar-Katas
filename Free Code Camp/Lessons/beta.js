@@ -84,3 +84,10 @@ let redNosedReindeer = "Rudolph";
 let favorite = redNosedReindeer + " is Santa's favorite reindeer.";
 redNosedReindeer = "Comet";
 
+// second attempt - wip
+'use strict';
+let favorite = redNosedReindeer + " is Santa's favorite reindeer.";
+let redNosedReindeer = "Rudolph";
+redNosedReindeer = "Comet";
+
+
