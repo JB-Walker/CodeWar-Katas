@@ -78,16 +78,10 @@ lookUpProfile("Akira", "likes");
 
 // 5. ES6: Explore Problems with the var Keyword
 // Fix the code so that it only uses the let keyword and makes the errors go away.
-// 1st attempt - wip
+// 3rd attempt - wip
 'use strict';
 let redNosedReindeer = "Rudolph";
-let favorite = redNosedReindeer + " is Santa's favorite reindeer.";
 redNosedReindeer = "Comet";
-
-// second attempt - wip
-'use strict';
 let favorite = redNosedReindeer + " is Santa's favorite reindeer.";
-let redNosedReindeer = "Rudolph";
-redNosedReindeer = "Comet";
 
 
