@@ -1773,3 +1773,8 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // 308: Chrome Dev Tools - Elements
 // Q1: The elements tab is where you should go if you want to edit HTML and CSS of an existing web page. True.
 // Q2: Any changes you make are saved, so it's safe to use as an editing tool. False.
+
+// 309. Chrome Dev Tools: Network
+// Q1. The Network tab is a good place to look to determine what requests are being made and how long they're taking. True.
+// Q2. Like all of the tabs in Chrome Developer tools, there are many ways to view and utilize the information it offers. True.
+
