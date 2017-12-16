@@ -128,7 +128,7 @@ function checkScope() {
 }
 checkScope();
 
-// 307. ES6: Declare a Read-Only Variable with the const Keyword
+// 7. ES6: Declare a Read-Only Variable with the const Keyword
 // Change the code so that all variables are declared using let or const. Use let when you want the variable to change, 
 // and const when you want the variable to remain constant. Also, rename variables declared with const to conform to 
 // common practices.
