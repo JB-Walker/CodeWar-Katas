@@ -87,7 +87,8 @@ let favorite = redNosedReindeer + " is Santa's favorite reindeer.";
 // variable. When programming a function similar to the one used in this exercise, it is often better to use different 
 // variable names to avoid confusion. ix the code so that i declared in the if statement is a separate variable than 
 // i declared in the first line of the function. Be certain not to use the var keyword anywhere in your code.
-// Samplle unexpected scoping issue:
+//
+// Sample unexpected scoping issue:
 var printNumTwo;
 for (var i = 0; i < 3; i++) {
   if(i === 2){
@@ -98,5 +99,18 @@ for (var i = 0; i < 3; i++) {
 }
 console.log(printNumTwo());
 // returns 3
-
+// Alternative version using let:
+'use strict';
+let printNumTwo;
+for (let i = 0; i < 3; i++) {
+  if (i === 2) {
+    printNumTwo = function() {
+      return i;
+    };
+  }
+}
+console.log(printNumTwo());
+// returns 2
+console.log(i);
+// returns "i is not defined"
 
