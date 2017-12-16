@@ -132,4 +132,17 @@ checkScope();
 // Change the code so that all variables are declared using let or const. Use let when you want the variable to change, 
 // and const when you want the variable to remain constant. Also, rename variables declared with const to conform to 
 // common practices.
+'use strict';
+// change 'var' to 'let' or 'const'
+// rename constant variables
+const PI = 3.14;
+const RADIUS = 10;
+var calculateCircumference = function(RADIUS) {
+  const DIAMETER = 2 * RADIUS;
+  var RESULT = PI * DIAMETER;
+  return RESULT;
+};
+// Test your code
+console.log(calculateCircumference(RADIUS));
+
 
