@@ -160,3 +160,7 @@ const s = [5, 7, 2];
 s.sort();
 console.log(s);
 // THERE MUST BE AN ERROR IN THE BETA.
+
+// 9. ES6: Prevent Object Mutation
+// In this challenge you are going to use Object.freeze to prevent mathematical constants from changing. 
+// You need to freeze MATH_CONSTANTS object so that noone is able alter the value of PI or add any more properties to it.
