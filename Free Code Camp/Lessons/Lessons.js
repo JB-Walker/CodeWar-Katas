@@ -1778,3 +1778,6 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q1. The Network tab is a good place to look to determine what requests are being made and how long they're taking. True.
 // Q2. Like all of the tabs in Chrome Developer tools, there are many ways to view and utilize the information it offers. True.
 
+// 310. Chrome Dev Tools: Sources
+// Q1. Debugging can be done easily in the 'Sources' tab of Chrome Dev Tools. True.
+// Q2. These breakpoints are already established, but you can edit where they are in the code. False.
