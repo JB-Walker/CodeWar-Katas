@@ -178,3 +178,7 @@ console.log(MATH_CONSTANTS.PI);// should show 3.14
 'use strict';
 const magic = () => new Date();
 console.log(magic());
+
+// 11. ES6: Write Arrow Functions with Parameters
+// Rewrite the myConcat function which appends contents of arr2 to arr1 so that the function uses arrow function syntax.
+// 
