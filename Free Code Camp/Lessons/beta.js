@@ -154,4 +154,8 @@ s[0] = 2;
 s[1] = 5;
 s[2] = 7;
 console.log(s);
-
+// unclear iunstructions - 2nd attempt
+"use strict";
+const s = [5, 7, 2];
+s.sort();
+console.log(s);
