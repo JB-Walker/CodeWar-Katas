@@ -1781,3 +1781,7 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // 310. Chrome Dev Tools: Sources
 // Q1. Debugging can be done easily in the 'Sources' tab of Chrome Dev Tools. True.
 // Q2. These breakpoints are already established, but you can edit where they are in the code. False.
+
+// 311. Chrome Dev Tools: Timeline
+// Q1. The 'Timeline' tab records how long it takes APIs to return information. False.
+// Q2. You need to press 'record' to start capturing information when using the 'Timeline' tab. True.
