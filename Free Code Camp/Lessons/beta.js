@@ -188,11 +188,13 @@ console.log(myConcat([1, 2], [3, 4, 5]));
 // 12. ES6: Write Higher Order Arrow Functions
 // Use arrow function syntax to compute the square of only the positive integers (fractions are not integers) in the 
 // array realNumberArray and store the new array in the variable squaredIntegers.
-// wip
+// works, but can be made better
 'use strict';
 const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34];
-const squaredIntegers = realNumberArray.filter(num => num > 0 && Number.isInteger(num));
+const positiveNumbers = realNumberArray.filter(num => num > 0 && Number.isInteger(num));
+const squaredIntegers = positiveNumbers.map((x) => x * x);
 console.log(squaredIntegers);
+
 
 
 
