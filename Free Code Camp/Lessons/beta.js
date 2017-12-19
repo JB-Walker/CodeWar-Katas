@@ -185,4 +185,9 @@ console.log(magic());
 const myConcat = (arr1, arr2) => arr1.concat(arr2);
 console.log(myConcat([1, 2], [3, 4, 5]));
 
+// 12. ES6: Write Higher Order Arrow Functions
+// Use arrow function syntax to compute the square of only the positive integers (fractions are not integers) in the 
+// array realNumberArray and store the new array in the variable squaredIntegers.
+
+
 
