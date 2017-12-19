@@ -204,6 +204,15 @@ function increment(number, value = 1) {
 console.log(increment(5, 2)); // returns 7
 console.log(increment(5)); // returns 6
 
+// 14. ES6: Use the Rest Operator with Function Parameters
+// Modify the function sum so that is uses the rest operator and it works in the same way with any number of parameters.
+'use strict';
+function sum(...array) {
+    return array.reduce((a, b) => a + b, 0);
+}
+console.log(sum(1, 2, 3)); // 6
+
+
 
 
 
