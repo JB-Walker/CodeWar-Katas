@@ -191,7 +191,7 @@ console.log(myConcat([1, 2], [3, 4, 5]));
 // wip 2
 'use strict';
 const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34];
-const squaredIntegers = realNumberArray.filter(number => number > 0 && Number.isIntegar(number));
+const squaredIntegers = realNumberArray.filter(num => num > 0 && Number.isIntegar(num));
 console.log(squaredIntegers);
 
 
