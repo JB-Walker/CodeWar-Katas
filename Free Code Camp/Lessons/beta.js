@@ -247,6 +247,9 @@ let a = 8, b = 6;
 console.log(a); // should be 6
 console.log(b); // should be 8
 
+// 19. ES6: Use Destructuring Assignment with the Rest Operator to Reassign Array Elements
+// Use destructuring assignment with the rest operator to perform an effective Array.prototype.slice() 
+// so that arr is a sub-array of the original array source with the first two elements ommitted.
 
 
 
