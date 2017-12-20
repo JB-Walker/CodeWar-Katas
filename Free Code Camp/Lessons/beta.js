@@ -220,6 +220,16 @@ const arr2 = [...arr1];
 arr1.push('JUN');
 console.log(arr2);
 
+// 16. ES6: Use Destructuring Assignment to Assign Variables from Objects
+// Use destructuring to obtain the length of the string greeting.
+'use strict';
+const greeting = 'itadakimasu';
+const {length} = greeting;
+console.log(length); // should be using destructuring
+
+
+
+
 
 
 
