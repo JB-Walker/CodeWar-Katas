@@ -227,7 +227,17 @@ const greeting = 'itadakimasu';
 const {length} = greeting;
 console.log(length); // should be using destructuring
 
-
+// 17. ES6: Use Destructuring Assignment to Assign Variables from Nested Objects
+// Use destructuring assignment to obtain max of forecast.tomorrow and assign it to maxOfTomorrow.
+const forecast = {
+    today: { min: 72, max: 83 },
+    tomorrow: { min: 73.3, max: 84.6 }
+  };
+  // change code below this line
+  const maxOfTomorrow = undefined; // change this line
+  // change code above this line
+  console.log(maxOfTomorrow); // should be 84.6
+  
 
 
 
