@@ -238,6 +238,9 @@ const forecast = {
   // change code above this line
   console.log(maxOfTomorrow); // should be 84.6
   
+// 18. ES6: Use Destructuring Assignment to Assign Variables from Arrays
+// Use destructuring assignment to swap the values of a and b so that a receives the 
+// value stored in b, and b receives the value stored in a.
 
 
 
