@@ -1785,3 +1785,7 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // 311. Chrome Dev Tools: Timeline
 // Q1. The 'Timeline' tab records how long it takes APIs to return information. False.
 // Q2. You need to press 'record' to start capturing information when using the 'Timeline' tab. True.
+
+// 312. Chrome Dev Tools: Profiles
+// Q1. When you take a profile or a snapshot, the information that's collected will be viewable in only one format. False.
+// Q2. After hitting 'record', consider refreshing the page depending on what data you are trying to capture. True.
