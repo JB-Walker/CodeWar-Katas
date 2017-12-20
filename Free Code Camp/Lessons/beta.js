@@ -257,6 +257,8 @@ const arr = source; // change this
 console.log(arr); // should be [3,4,5,6,7,8,9,10]
 console.log(source); // should be [1,2,3,4,5,6,7,8,9,10];
 
+// 20. ES6: Use Destructuring Assignment to Pass an Object as a Function's Parameters
+// Use destructuring assignment within the argument to the function half to send only max and min inside the function.
 
 
 
