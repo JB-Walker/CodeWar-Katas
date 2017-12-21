@@ -271,8 +271,24 @@ const half = ({max, min}) => (max + min) / 2;
 console.log(stats); // should be object
 console.log(half(stats)); // should be 28.015
 
-
-
+// 21. ES6: Create Strings using Template Literals
+// Use template literal syntax with backticks to display each entry of the result object's failure array. Each entry 
+// should be wrapped inside an li element with the class attribute text-warning.
+const result = {
+    success: ["max-length", "no-amd", "prefer-arrow-functions"],
+    failure: ["no-var", "var-on-top", "linebreak"],
+    skipped: ["id-blacklist", "no-dup-keys"]
+  };
+  // change code below this line
+  const resultDisplay = null;
+  // change code above this line
+  console.log(resultDisplay);
+  /**
+   * should look like this
+   * <li class="text-warning">no-var</li>
+   * <li class="text-warning">var-on-top</li>
+   * <li class="text-warning">linebreak</li>
+   **/
 
 
 
