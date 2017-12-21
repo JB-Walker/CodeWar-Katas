@@ -1789,3 +1789,6 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // 312. Chrome Dev Tools: Profiles
 // Q1. When you take a profile or a snapshot, the information that's collected will be viewable in only one format. False.
 // Q2. After hitting 'record', consider refreshing the page depending on what data you are trying to capture. True.
+
+// 313. Chrome Dev Tools: Resources
+// Q1. The 'Resources' tab helps you view external resources such as SQL and cookies. True.
