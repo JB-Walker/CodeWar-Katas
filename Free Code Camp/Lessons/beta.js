@@ -240,11 +240,13 @@ console.log(maxOfTomorrow); // should be 84.6
 // 18. ES6: Use Destructuring Assignment to Assign Variables from Arrays
 // Use destructuring assignment to swap the values of a and b so that a receives the 
 // value stored in b, and b receives the value stored in a.
+'use strict';
 let a = 8, b = 6;
-// change code below this line
-// change code above this line
+const array = [a, b];
+[b, a] = array;
 console.log(a); // should be 6
 console.log(b); // should be 8
+
 
 // 19. ES6: Use Destructuring Assignment with the Rest Operator to Reassign Array Elements
 // Use destructuring assignment with the rest operator to perform an effective Array.prototype.slice() 
