@@ -291,6 +291,12 @@ console.log(resultDisplay);
  * <li class="text-warning">linebreak</li>
  **/
 
+ // 22. ES6: Write Concise Object Literal Declarations Using Simple Fields
+ // Use simple fields with object literals to create and return a Person object.
+ 'use strict';
+ const createPerson = (name, age, gender) => ({name, age, gender});
+ console.log(createPerson("Zodiac Hasbro", 56, "male")); // returns a proper object
+
  
 
 
