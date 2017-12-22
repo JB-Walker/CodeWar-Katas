@@ -1770,9 +1770,9 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q1: RegExp can be a useful tool when working with strings. True.
 // Q2: RegExp can be intimidating, and if you don't like it, you can probably just avoid using it. False.
 
-// 308: Chrome Dev Tools - Elements
-// Q1: The elements tab is where you should go if you want to edit HTML and CSS of an existing web page. True.
-// Q2: Any changes you make are saved, so it's safe to use as an editing tool. False.
+// 308. Chrome Dev Tools - Elements
+// Q1. The elements tab is where you should go if you want to edit HTML and CSS of an existing web page. True.
+// Q2. Any changes you make are saved, so it's safe to use as an editing tool. False.
 
 // 309. Chrome Dev Tools: Network
 // Q1. The Network tab is a good place to look to determine what requests are being made and how long they're taking. True.
