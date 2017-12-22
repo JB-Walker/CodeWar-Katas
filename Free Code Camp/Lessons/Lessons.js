@@ -1792,3 +1792,7 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 
 // 313. Chrome Dev Tools: Resources
 // Q1. The 'Resources' tab helps you view external resources such as SQL and cookies. True.
+
+// 314. Chrome Dev Tools: Audits
+// Q1. The Audit tab will suggest ways to improve a webpage. True.
+// Q2. While you don't NEED to do everything suggested, you probably should. False.
