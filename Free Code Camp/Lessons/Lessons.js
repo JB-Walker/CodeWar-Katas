@@ -1762,9 +1762,9 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q1: When talking about Math in JavaScript, all of the methods and functions work like they would on any calculator. False.
 // Q2: There are special methods and functions specific for the 'Math' object. True.
 
-// 306: JavaScript Lingo - Loops
-// Q1: There's only one type of loop. False.
-// Q2: Loops can only traverse arrays. False.
+// 306. JavaScript Lingo - Loops
+// Q1. There's only one type of loop. False.
+// Q2. Loops can only traverse arrays. False.
 
 // 307. JavaScript Lingo - Regular Expressions
 // Q1. RegExp can be a useful tool when working with strings. True.
