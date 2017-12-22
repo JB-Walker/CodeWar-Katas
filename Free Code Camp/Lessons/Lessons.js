@@ -1758,9 +1758,9 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q1: Whenever there's a specific manipulation you want to apply, you should check the methods before writing your own code. True.
 // Q2: When writing your own functions, you should keep your code clean by only using minimal amounts of methods. False.
 
-// 305: JavaScript Lingo - Math
-// Q1: When talking about Math in JavaScript, all of the methods and functions work like they would on any calculator. False.
-// Q2: There are special methods and functions specific for the 'Math' object. True.
+// 305. JavaScript Lingo - Math
+// Q1. When talking about Math in JavaScript, all of the methods and functions work like they would on any calculator. False.
+// Q2. There are special methods and functions specific for the 'Math' object. True.
 
 // 306. JavaScript Lingo - Loops
 // Q1. There's only one type of loop. False.
