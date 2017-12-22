@@ -1738,13 +1738,13 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q1: Documentation is not a good way to learn a programming language. False.
 // q2: Mozilla Developer Network is a great resource that should be referenced regularly. True.
 
-// 300: JavaScript Lingo - Value Types
-// Q1: Numbers can include decimals. True.
-// Q2: If a value is text that isn't the word true or false, it's a string. False.
+// 300. JavaScript Lingo - Value Types
+// Q1. Numbers can include decimals. True.
+// Q2. If a value is text that isn't the word true or false, it's a string. False.
 
-// 301: JavaScript Lingo - Variables & camelCase
-// Q1: camelCase is mandatory in JavaScript. False.
-// Q2: Variables can only hold information that is a boolean, string, or number. False.
+// 301. JavaScript Lingo - Variables & camelCase
+// Q1. camelCase is mandatory in JavaScript. False.
+// Q2. Variables can only hold information that is a boolean, string, or number. False.
 
 // 302. JavaScript Lingo - Arrays & Objects
 // Q1. Arrays are easy to spot because of their [square brackets]. True.
