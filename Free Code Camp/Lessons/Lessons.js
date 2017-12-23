@@ -1692,9 +1692,9 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 //   times without even knowing it. The end result is that your experience was faster than it could 
 //   have been without the CDNs services. True.
 
-// 289: Computer Basics - Analog vs Digital and File Compression
-// Q1: Digital files can be made from analog sounds and analog sounds can be made from digital files. True.
-// Q2: Compression is not worth it, because it lessens quality. False.
+// 289. Computer Basics - Analog vs Digital and File Compression
+// Q1. Digital files can be made from analog sounds and analog sounds can be made from digital files. True.
+// Q2. Compression is not worth it, because it lessens quality. False.
 
 // 290. Computer Basics - Routers and Packets
 // Q1. Routers have to know the whole internet. False.
