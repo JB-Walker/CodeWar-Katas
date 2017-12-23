@@ -1710,9 +1710,9 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q1: The console serves only small, unnecessary purposes. False.
 // Q2: You can console strings (sets of words), numbers, and booleans (true/false statements). True.
 
-// 293: Computer Basics - Variables In Code
-// Q1: Variables are useful in coding languages like JavaScript. True.
-// Q2: Variables can't stand for anything that isn't a string, number, or boolean. False.
+// 293. Computer Basics - Variables In Code
+// Q1. Variables are useful in coding languages like JavaScript. True.
+// Q2. Variables can't stand for anything that isn't a string, number, or boolean. False.
 
 // 294. Computer Basics - What Do Programmers Do?
 // Q1. Computers look at code one line at a time. True.
