@@ -1714,29 +1714,29 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q1: Variables are useful in coding languages like JavaScript. True.
 // Q2: Variables can't stand for anything that isn't a string, number, or boolean. False.
 
-// 294: Computer Basics - What Do Programmers Do?
-// Q1: Computers look at code one line at a time. True.
-// Q2: Programmers and developers are totally different professions with very little in common. False.
-// Q3: Programmers take ideas and break them down into little tiny steps the computer can understand. True.
+// 294. Computer Basics - What Do Programmers Do?
+// Q1. Computers look at code one line at a time. True.
+// Q2. Programmers and developers are totally different professions with very little in common. False.
+// Q3. Programmers take ideas and break them down into little tiny steps the computer can understand. True.
 
-// 295: Project #2 - "Build a Random Quote Machine Complete" submitted
+// 295. Project #2 - "Build a Random Quote Machine Complete" submitted
 
-// 296: Computer Basics - Computer Security
-// Q1: Passwords should be shared with all of your accounts. False.
-// Q2: If you don't trust a site or an email, open a new browser and re-enter the intended location. True.
-// Q3: Keeping software updated will help protect your computer and your information. True.
+// 296. Computer Basics - Computer Security
+// Q1. Passwords should be shared with all of your accounts. False.
+// Q2. If you don't trust a site or an email, open a new browser and re-enter the intended location. True.
+// Q3. Keeping software updated will help protect your computer and your information. True.
 
-// 297: The DOM - What's the Document Object Model?
-// Q1: The DOM is complex and difficult to access. False.
-// Q2: The DOM is an API that is a part of the browser. True.
+// 297. The DOM - What's the Document Object Model?
+// Q1. The DOM is complex and difficult to access. False.
+// Q2. The DOM is an API that is a part of the browser. True.
 
-// 298: The DOM - Style in the Header, Script in the Footer
-// Q1: Placing the style in the header and the script in the footer ensures the page is loaded for the user as you want it to appear. True.
-// Q2: The CSS link should go in the header and the JS link should go in the footer. If you don't do it just that way, the webpage will crash. False.
+// 298. The DOM - Style in the Header, Script in the Footer
+// Q1. Placing the style in the header and the script in the footer ensures the page is loaded for the user as you want it to appear. True.
+// Q2. The CSS link should go in the header and the JS link should go in the footer. If you don't do it just that way, the webpage will crash. False.
 
-// 299: JavaScript Lingo - MDN and Documentation
-// Q1: Documentation is not a good way to learn a programming language. False.
-// q2: Mozilla Developer Network is a great resource that should be referenced regularly. True.
+// 299. JavaScript Lingo - MDN and Documentation
+// Q1. Documentation is not a good way to learn a programming language. False.
+// Q2. Mozilla Developer Network is a great resource that should be referenced regularly. True.
 
 // 300. JavaScript Lingo - Value Types
 // Q1. Numbers can include decimals. True.
