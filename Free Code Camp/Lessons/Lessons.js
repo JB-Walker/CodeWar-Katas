@@ -1796,3 +1796,9 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // 314. Chrome Dev Tools: Audits
 // Q1. The Audit tab will suggest ways to improve a webpage. True.
 // Q2. While you don't NEED to do everything suggested, you probably should. False.
+
+// 315. Chrome Dev Tools: Console
+// Q1. The console in Chrome Dev Tools has many similarities to the console of a computer. True.
+// Q2. This video is in-depth and covers everything you need to know. False.
+
+
