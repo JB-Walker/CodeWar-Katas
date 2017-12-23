@@ -1672,9 +1672,9 @@ function truthCheck(collection, pre) {
 truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, 
 {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex");
 
-// 284: Computer Basics - IP Addresses
-// Q1: IP addresses are necessary to use and participate in the internet. True.
-// Q2: IP addresses are determined and assigned based on location. True.
+// 284. Computer Basics - IP Addresses
+// Q1. IP addresses are necessary to use and participate in the internet. True.
+// Q2. IP addresses are determined and assigned based on location. True.
 
 // 285. Computer Basics - How the Internet Works
 // Q1. Your computer sends a request for information. True.
