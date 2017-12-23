@@ -1652,17 +1652,17 @@ binaryAgent("01000001 01110010 01100101 01101110 00100111 01110100 00100000 0110
 // Q2: What makes Supercomputers 'super' is when multiple CPUs work on one problem, called parallel processing. True.
 // Q3: Microcontrollers and workstation computers can perform roughly the same tasks. False.
 
-// 281: Computer Basics - More on the Motherboard
-// Q1: A motherboard must connect the CPU, the memory, and the network. False.
-// Q2: Expansion slots allow users to add capabilities to a computer. True.
-// Q3: Ports help the computer access information. True.
+// 281. Computer Basics - More on the Motherboard
+// Q1. A motherboard must connect the CPU, the memory, and the network. False.
+// Q2. Expansion slots allow users to add capabilities to a computer. True.
+// Q3. Ports help the computer access information. True.
 
-// 282: Computer Basics - Data Networks
-// Q1: You can connect to a LAN from far away. False.
-// Q2: VPNs (Virtual Private Networks) and WANs (Wide Area Networks) do just about the same thing. True.
-// Q3: VPNs and WANs both use the internet to connect LANs. False.
+// 282. Computer Basics - Data Networks
+// Q1. You can connect to a LAN from far away. False.
+// Q2. VPNs (Virtual Private Networks) and WANs (Wide Area Networks) do just about the same thing. True.
+// Q3. VPNs and WANs both use the internet to connect LANs. False.
 
-// 283: Everything Be True
+// 283. Everything Be True
 // Check if the predicate (second argument) is truthy on all elements of a collection (first argument).
 function truthCheck(collection, pre) {
   return collection.every(function(element) {
