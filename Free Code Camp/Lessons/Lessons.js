@@ -1680,10 +1680,10 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // Q1: Your computer sends a request for information. True.
 // Q2: The Internet can be broken by a large chunk of routers and servers going down. False.
 
-// 286: Computer Basics - Software
-// Q1: Safari, Chrome, and Firefox are all examples of application software. True.
+// 286. Computer Basics - Software
+// Q1. Safari, Chrome, and Firefox are all examples of application software. True.
 
-// 287: Project 1 - Tribute
+// 287. Project 1 - Tribute
 
 // 288. Computer Basics - Content Delivery Networks
 // Q1. Content Delivery Networks are a service you can buy through your internet service provider 
