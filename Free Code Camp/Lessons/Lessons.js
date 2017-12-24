@@ -1601,7 +1601,7 @@ dropElements([1, 2, 3], function(n) {return n < 3; });
 // Q1: Data speed is measured in bits per second. True.
 // Q2: Data size is measured in bits. False.
 
-// 278: Steamroller - passes FCC tests, but mixes order in edge cases, such as the one given.
+// 278. Steamroller - passes FCC tests, but mixes order in edge cases, such as the one given.
 // Flatten a nested array. You must account for varying levels of nesting.
 function steamrollArray(arr) {
   let newArr = [];
@@ -1620,7 +1620,7 @@ function steamrollArray(arr) {
 }
 steamrollArray([[["a"]], [["b"]], "c"]);
 
-// 279: Binary Agents - first attempt (not working)
+// 279. Binary Agents - first attempt (not working)
 // Instead of returning "Aren't bonfires fun!?" I got Chinese symbols
 // Return an English translated sentence of the passed binary string.
 // The binary string will be space separated.
