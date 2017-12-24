@@ -1592,7 +1592,7 @@ dropElements([1, 2, 3], function(n) {return n < 3; });
 // Q2: It's good practice to memorize these. False.
 // Q3: Everything can be expressed in binary, even pictures, sound, and video. True.
 
-// 276: Computer Basics - How To Measure Data Size
+// 276. Computer Basics - How To Measure Data Size
 // Q1. A Byte is the smallest possible amount of data. False.
 // Q2. A bit is the smallest possible amount of data. True.
 // Q3. A Kilobyte is 1024 Bytes. True.
