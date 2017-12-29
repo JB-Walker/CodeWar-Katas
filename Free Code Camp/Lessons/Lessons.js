@@ -1579,7 +1579,7 @@ dropElements([1, 2, 3], function(n) {return n < 3; });
 
 // 273: Computer Basics - Intro to Binary Code
 // Q1: 1's and 0's are how we talk about little switches being on and off. True.
-// Q2: 1 means on, and 0 means off. True.
+// Q2. 1 means on, and 0 means off. True.
 // Q3. There are some things which cannot be translated into binary. False.
   
 // 274. Computer Basics - Decoding a Binary Number
