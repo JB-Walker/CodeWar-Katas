@@ -1582,7 +1582,7 @@ dropElements([1, 2, 3], function(n) {return n < 3; });
 // Q2: 1 means on, and 0 means off. True.
 // Q3: There are some things which cannot be translated into binary. False.
   
-// 274: Computer Basics - Decoding a Binary Number
+// 274. Computer Basics - Decoding a Binary Number
 // Q1. 1 == on and 0 == off. True.
 // Q2. Not all numbers can be expressed through binary numeral notation. False.
 // Q3. If we have the opportunity to include base 2 to every given power, we can create any number. True.
