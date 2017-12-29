@@ -1585,7 +1585,7 @@ dropElements([1, 2, 3], function(n) {return n < 3; });
 // 274: Computer Basics - Decoding a Binary Number
 // Q1: 1 == on and 0 == off. True.
 // Q2: Not all numbers can be expressed through binary numeral notation. False.
-// Q3: If we have the opportunity to include base 2 to every given power, we can create any number. True.
+// Q3. If we have the opportunity to include base 2 to every given power, we can create any number. True.
 
 // 275. Computer Basics - Binary Bytes
 // Q1. All digits, letters, and symbols have a binary byte translation. True (less than 255).
