@@ -1577,7 +1577,7 @@ dropElements([1, 2, 3], function(n) {return n < 3; });
 // Q2: Moore's Law is the observation that technology doubles in speed every year. False. Every two years.
 // Q3: Moore's Law has slowed down in recent years. True.
 
-// 273: Computer Basics - Intro to Binary Code
+// 273. Computer Basics - Intro to Binary Code
 // Q1. 1's and 0's are how we talk about little switches being on and off. True.
 // Q2. 1 means on, and 0 means off. True.
 // Q3. There are some things which cannot be translated into binary. False.
