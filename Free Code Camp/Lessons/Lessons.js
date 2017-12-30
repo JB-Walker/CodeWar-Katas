@@ -1562,7 +1562,7 @@ function dropElements(arr, func) {
 }
 dropElements([1, 2, 3], function(n) {return n < 3; });
 
-// 270: Computer Basics - The 4 Basic Parts of a Computer
+// 270. Computer Basics - The 4 Basic Parts of a Computer
 // Q1. The computer only has 3 basic parts. False. 4.
 // Q2. CPU stands for Central Processing Unit. True
 // Q3. All parts can access the memory. False. Only the CPU
