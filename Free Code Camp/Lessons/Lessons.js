@@ -1573,7 +1573,7 @@ dropElements([1, 2, 3], function(n) {return n < 3; });
 // Q3: Memory is usually categorized into 3 parts. False.
 
 // 272: Computer Basics - Chips and Moore's Law
-// Q1: Chips have transistors, little switches that can store a 1 or a 0. True.
+// Q1. Chips have transistors, little switches that can store a 1 or a 0. True.
 // Q2. Moore's Law is the observation that technology doubles in speed every year. False. Every two years.
 // Q3. Moore's Law has slowed down in recent years. True.
 
