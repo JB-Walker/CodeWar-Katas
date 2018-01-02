@@ -1343,7 +1343,7 @@ function fearNotLetter(str) {
 }
 fearNotLetter("abce");
 
-// 261: Boo who
+// 261. Boo who
 // Check if a value is classified as a boolean primitive. Return true or false.
 function booWho(bool) {
   if (bool === true || bool === false) {
