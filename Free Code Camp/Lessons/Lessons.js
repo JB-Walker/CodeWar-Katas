@@ -1377,7 +1377,7 @@ function uniteUnique(arr) {
 }
 uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]);
 
-// 263: Convert HTML Entities
+// 263. Convert HTML Entities
 // Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their corresponding HTML entities.
 function convertHTML(str) {
   let arr = str.split('');
