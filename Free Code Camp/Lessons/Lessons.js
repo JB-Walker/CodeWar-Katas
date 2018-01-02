@@ -1219,7 +1219,7 @@ function diffArray(arr1, arr2) {
 }
 diffArray([1, "calf", 3, "piglet"], [1, "calf", 3, 4]);
 
-// 255: Roman Numeral Converter
+// 255. Roman Numeral Converter
 function convertToRoman(num) {
   let roman = '';
   let count;
