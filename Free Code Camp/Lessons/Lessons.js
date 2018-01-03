@@ -1050,7 +1050,7 @@ rot13("SERR PBQR PNZC");
     </div>
 </div>
 
-// 249: Convert JSON Data to HTML
+// 249. Convert JSON Data to HTML
 <script>
     $(document).ready(function() {
       $("#getMessage").on("click", function() {
