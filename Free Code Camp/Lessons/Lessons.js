@@ -1022,7 +1022,7 @@ rot13("SERR PBQR PNZC");
     </div>
 </div>
 
-// 248: Get JSON with the jQuery getJSON Method
+// 248. Get JSON with the jQuery getJSON Method
 <script>
     $(document).ready(function() {
       $("#getMessage").on("click", function() {
