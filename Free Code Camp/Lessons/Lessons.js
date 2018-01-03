@@ -923,7 +923,7 @@ function bouncer(arr) {
 }
 bouncer([7, "ate", "", false, 9]);
 
-// 243: Seek and Destroy
+// 243, Seek and Destroy
 function destroyer(toBeFiltered) {
   let argsArray = Array.prototype.slice.call(arguments);
   for (let i = 1; i < argsArray.length; i++) {
