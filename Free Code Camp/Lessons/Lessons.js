@@ -996,7 +996,7 @@ rot13("SERR PBQR PNZC");
   </div>
 </div>
 
-// 247: Change Text with Click Events
+// 247. Change Text with Click Events
 <script>
     $(document).ready(function() {
       $("#getMessage").on("click", function(){
