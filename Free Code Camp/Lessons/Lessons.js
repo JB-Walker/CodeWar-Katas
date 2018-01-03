@@ -972,7 +972,7 @@ rot13("SERR PBQR PNZC");
 // JSON APIs and AJAX
 //
 
-// 246: Trigger Click Events with jQuery
+// 246. Trigger Click Events with jQuery
 <script>
   $(document).ready(function() {
     $("#getMessage").on("click", function(){});
