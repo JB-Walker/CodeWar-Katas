@@ -915,7 +915,7 @@ function mutation(arr) {
 }
 mutation(["hello", "hey"]);
 
-// 242: Falsy Bouncer
+// 242. Falsy Bouncer
 function bouncer(arr) {
   return arr.filter(function(value){
     return (value);
