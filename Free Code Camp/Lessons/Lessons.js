@@ -1088,7 +1088,7 @@ rot13("SERR PBQR PNZC");
     </div>
 </div>
 
-// 250: Render Images from Data Sources
+// 250. Render Images from Data Sources
 <script>
     $(document).ready(function() {
       $("#getMessage").on("click", function() {
