@@ -949,7 +949,7 @@ function getIndexToIns(arr, num) {
 }
 getIndexToIns([5, 3, 20, 3], 5);
 
-// 245: Caesars Cipher
+// 245. Caesars Cipher
 function rot13(str) {
   let codedStr = '';
   let code;
