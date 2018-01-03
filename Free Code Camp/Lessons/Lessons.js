@@ -935,7 +935,7 @@ function destroyer(toBeFiltered) {
 }
 destroyer([1, 2, 3, 1, 2, 3], 2, 3);
 
-// 244: Where do I belong
+// 244. Where do I belong
 function getIndexToIns(arr, num) {
   arr.sort(function(a, b){
     return a - b;
