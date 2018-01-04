@@ -807,7 +807,7 @@ function palindrome (str) {
 }
 palindrome("eye");
 
-// 233: Find the Longest Word in a String
+// 233. Find the Longest Word in a String
 function findLongestWord (str) {
   let arr = str.split(' ');
   let arr1 = arr.map(function(value) {
