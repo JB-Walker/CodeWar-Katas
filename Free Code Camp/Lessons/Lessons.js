@@ -902,7 +902,7 @@ function slasher(arr, howMany) {
 }
 slasher([1, 2, 3], 2);
 
-// 241: Mutations
+// 241. Mutations
 function mutation(arr) {
   let word = arr[0].toLowerCase();
   let letters = arr[1].toLowerCase();
