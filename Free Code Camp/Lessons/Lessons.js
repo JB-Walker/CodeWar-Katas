@@ -848,7 +848,7 @@ function confirmEnding (str, target) {
 }
 confirmEnding("Bastian", "n");
 
-// 237: Repeat a string repeat a string
+// 237. Repeat a string repeat a string
 function repeatStringNumTimes (str, num) {
   try {
     return str.repeat(num);
