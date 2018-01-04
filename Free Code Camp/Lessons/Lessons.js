@@ -859,7 +859,7 @@ function repeatStringNumTimes (str, num) {
 }
 repeatStringNumTimes("abc", 3);
 
-// 238: Truncate a string
+// 238. Truncate a string
 function truncateString (str, num) {
   if (str.length > num) {
       if (num <= 3) {
