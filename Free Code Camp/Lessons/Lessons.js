@@ -830,7 +830,7 @@ function titleCase (str) {
 }
 titleCase("I'm a little tea pot");
 
-// 235: Return Largest Numbers in Arrays
+// 235. Return Largest Numbers in Arrays
 function largestOfFour (arr) {
   let largestArr = arr.map(function(innerArr) {
     let innerArrSorted = innerArr.sort(function(a, b) {
