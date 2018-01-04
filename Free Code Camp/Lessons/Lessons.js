@@ -820,7 +820,7 @@ function findLongestWord (str) {
 }
 findLongestWord("The quick brown fox jumped over the lazy dog");
 
-// 234: Title Case a Sentence
+// 234. Title Case a Sentence
 function titleCase (str) {
   let arr = str.toLowerCase().split(' ');
   let arrCapped = arr.map(function(value) {
