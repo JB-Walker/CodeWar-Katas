@@ -772,7 +772,7 @@ joinedString = joinMe.join(' ');
 
 // 229 --- Not a programming Lesson
 
-// 230: Reverse a String 
+// 230. Reverse a String 
 function reverseString (str) {
   return str.split('').reverse().join('');
 }
