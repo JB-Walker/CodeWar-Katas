@@ -790,7 +790,7 @@ function factorialize (num) {
 }
 factorialize(5);
 
-// 232: Check for Palindromes
+// 232. Check for Palindromes
 function palindrome (str) {
   let arr = str.toLowerCase().replace(/[^0-9a-z]/g, '').split('');
   if (!arr.length) {
