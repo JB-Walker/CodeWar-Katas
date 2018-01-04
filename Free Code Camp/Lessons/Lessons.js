@@ -887,7 +887,7 @@ function chunkArrayInGroups(arr, size) {
 }
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
 
-// 240: Slasher Flick
+// 240. Slasher Flick
 function slasher(arr, howMany) {
   if (!howMany) {
     return arr;
