@@ -778,7 +778,7 @@ function reverseString (str) {
 }
 reverseString("hello");
 
-//231: Factorialize a Number
+//231. Factorialize a Number
 function factorialize (num) {
   let factorial = 1;
   if (num > 1) {
