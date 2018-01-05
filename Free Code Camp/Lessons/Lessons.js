@@ -717,33 +717,32 @@ var Bike = function() {
 var myCar = new Car();
 var myBike = new Bike();
 
-// 221
+// 221.
 var oldArray = [1,2,3,4,5];
 var newArray = oldArray.map(function(val) {
   return val + 3;
 });
 
-// 222
+// 222.
 var array = [4,5,6,7,8];
 var singleVal = 0;
 singleVal = array.reduce(function(runningTotal, currentValue) {
   return runningTotal + currentValue;
 }, 0);
 
-// 223
+// 223.
 var oldArray = [1,2,3,4,5,6,7,8,9,10];
 var newArray = oldArray.filter(function(value) {
   return value < 6;
 });
 
-
-// 224
+// 224.
 var array = [1, 12, 21, 2];
 array.sort(function(a, b) {
   return b - a;
 });
 
-// 225
+// 225.
 var array = [1,2,3,4,5,6,7];
 var newArray = [];
 newArray = array.reverse();
