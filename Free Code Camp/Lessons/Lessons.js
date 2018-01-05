@@ -2,13 +2,13 @@
 // Basic JavaScript <continued>
 //
 
-// 145: Understand String Immutability 
+// 145. Understand String Immutability 
 myStr = "Hello World";
 
-// 146: Use Bracket Notation to Find the Nth Character in a String
+// 146. Use Bracket Notation to Find the Nth Character in a String
 var thirdLetterOfLastName = lastName[2];
 
-// 147: Use Bracket Notation to Find the Last Character in a String 
+// 147. Use Bracket Notation to Find the Last Character in a String 
 var lastLetterOfLastName = lastName[lastName.length - 1];
 
 // 148
