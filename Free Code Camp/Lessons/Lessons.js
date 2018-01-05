@@ -250,7 +250,7 @@ function orderMyLogic(val) {
 orderMyLogic(7);
 
 // 182. Golf -- programmed earlier
-// 183.
+// 183. 
 function caseInSwitch(val) {
     var answer = "";
     switch (val) {
@@ -767,15 +767,18 @@ joinedString = joinMe.join(' ');
 // Basic Algorithm Scripting --- NOTE: Started Using ES6 (where possible)
 //
 
-// 229 --- Not a programming Lesson
+// 229. --- Not a programming Lesson
 
-// 230. Reverse a String 
+// 230. Reverse a String
+// Reverse the provided string.
 function reverseString (str) {
   return str.split('').reverse().join('');
 }
 reverseString("hello");
 
 //231. Factorialize a Number
+// Return the factorial of the provided integer. If the integer is represented with the letter n, a factorial is the 
+// product of all positive integers less than or equal to n. Factorials are often represented with the shorthand notation n!
 function factorialize (num) {
   let factorial = 1;
   if (num > 1) {
