@@ -510,7 +510,7 @@ var myStorage = {
 };
 var gloveBoxContents = myStorage.car.inside["glove box"];
 
-// 201
+// 201.
 var myPlants = [
     { 
       type: "flowers",
@@ -531,32 +531,32 @@ var myPlants = [
 ];
 var secondTree = myPlants[1].list[1];
 
-// 202
+// 202.
 var myArray = [];
 for (var i = 1; i < 6; i++) {
   myArray.push(i);
 }
 
-// 203
+// 203.
 var myArray = [];
 for (var i = 1; i < 10; i += 2) {
   myArray.push(i);
 }
 
-// 204
+// 204.
 var myArray = [];
 for (var i = 9; i > 0; i -= 2) {
   myArray.push(i);
 }
 
-// 205
+// 205.
 var myArr = [ 2, 3, 4, 5, 6];
 var total = 0;
 for (var i = 0; i < myArr.length; i++) {
   total += myArr[i];
 }
 
-// 206
+// 206.
 function multiplyAll(arr) {
     var product = 1;
     for (var i = 0; i < arr.length; i++) {
@@ -568,7 +568,7 @@ function multiplyAll(arr) {
 }
 multiplyAll([[1,2],[3,4],[5,6,7]]);
 
-// 207
+// 207.
 var myArray = [];
 var i = 0;
 while (i < 5) {
@@ -576,7 +576,7 @@ while (i < 5) {
   i++;
 }
 
-// 208
+// 208.
 var contacts = [
     {
         "firstName": "Akira",
@@ -619,40 +619,40 @@ function lookUpProfile(firstName, prop){
 }
 lookUpProfile("Akira", "likes");
 
-// 209
+// 209.
 function randomFraction() {
     return Math.random();
 }
 
-// 210
+// 210.
 function randomWholeNum() {
     return Math.floor(Math.random() * 10);
 }
 
-// 211
+// 211.
 function randomRange(myMin, myMax) {
     return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
 }
 var myRandom = randomRange(5, 15);
 
-// 212
+// 212.
 var testString = "Ada Lovelace and Charles Babbage designed the first computer and the software that would have run on it.";
 var expressionToGetSoftware = /software/gi;
 var softwareCount = testString.match(expressionToGetSoftware).length;
 var expression = /and/gi;
 var andCount = testString.match(expression).length;
 
-// 213
+// 213.
 var testString = "There are 3 cats but 4 dogs.";
 var expression = /\d+/g;
 var digitCount = testString.match(expression).length;
 
-// 214
+// 214.
 var testString = "How many spaces are there in this sentence?";
 var expression = /\s+/g;
 var spaceCount = testString.match(expression).length;
 
-// 215
+// 215.
 var testString = "How many non-space characters are there in this sentence?";
 var expression = /\S/g;
 var nonSpaceCount = testString.match(expression).length;
