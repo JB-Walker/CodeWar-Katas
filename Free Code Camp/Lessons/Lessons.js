@@ -11,56 +11,56 @@ var thirdLetterOfLastName = lastName[2];
 // 147. Use Bracket Notation to Find the Last Character in a String 
 var lastLetterOfLastName = lastName[lastName.length - 1];
 
-// 148
+// 148.
 var secondToLastLetterOfLastName = lastName[lastName.length - 2];
 
-//149
+// 149.
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
     var result = "";
     result = "The huge, " + myAdjective + " " + myNoun + " " + myVerb + " around the corner " + myAdverb + "!!";
     return result;
 }
 
-//150
+// 150.
 var myArray = ["happy", 13];
 
-//151
+// 151.
 var myArray = [[1, 2, 3], [4, 5, 6]];
 
-// 152
+// 152.
 var myData = myArray[0];
 
-// 153
+// 153.
 myArray[0] = 3;
 
-// 154
+// 154.
 var myData = myArray[2][1];
 
-// 155
+// 155.
 myArray.push(["dog", 3]);
 
-// 156
+// 156.
 var removedFromMyArray = myArray.shift();
 
-// 157
+// 157.
 myArray.unshift(["Paul",35]);
 
-// 158
+// 158.
 var myList = [['soap',1],['bread',2],['hot dog',24],['donuts',6],['soda',3]];
 
-//159
+// 159.
 function reusableFunction() {
     console.log("Hi World");
 }
 reusableFunction();
 
-// 160
+// 160.
 function functionWithArgs (num1, num2) {
     console.log(num1 + num2);
 }
 functionWithArgs(3,15);
 
-// 161
+// 161.
 var myGlobal = 10;
 // Declare your variable here
 function fun1() {
@@ -68,7 +68,7 @@ function fun1() {
   oopsGlobal = 5; 
 }
 
-// 162
+// 162.
 function myLocalScope() {
     'use strict';
     var myVar;
@@ -76,7 +76,7 @@ function myLocalScope() {
 }
 myLocalScope();
 
-// 163
+// 163.
 var outerWear = "T-Shirt";
 function myOutfit() {
   var outerWear = "sweater";
@@ -84,26 +84,26 @@ function myOutfit() {
 }
 myOutfit();
 
-// 164
+// 164.
 function timesFive(num) {
   return num * 5;
 }
 
-// 165
+// 165.
 processed = processArg(7);
 
-// 166
+// 166.
 function nextInLine(arr, item) {
   arr.push(item);
   return arr.shift();
 }
 
-// 167
+// 167.
 function welcomeToBooleans() {
   return true;
 }
 
-// 168
+// 168.
 function trueOrFalse(wasThatTrue) {
   if (wasThatTrue) { 
     return "Yes, that was true";
@@ -111,7 +111,7 @@ function trueOrFalse(wasThatTrue) {
   return "No, that was false";
 }
 
-// 169
+// 169.
 function testEqual(val) {
     if (val == 12) {
       return "Equal";
@@ -120,7 +120,7 @@ function testEqual(val) {
 }
 testEqual(12);
 
-// 170
+// 170.
 function testStrict(val) {
     if (val === 7) {
       return "Equal";
