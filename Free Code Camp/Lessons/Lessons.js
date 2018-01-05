@@ -237,7 +237,7 @@ function testElseIf(val) {
 }
 testElseIf(7);
 
-// 181
+// 181.
 function orderMyLogic(val) {
     if (val < 5) {
       return "Less than 5";
@@ -249,8 +249,8 @@ function orderMyLogic(val) {
 }
 orderMyLogic(7);
 
-// 182 Golf -- programmed earlier
-// 183
+// 182. Golf -- programmed earlier
+// 183.
 function caseInSwitch(val) {
     var answer = "";
     switch (val) {
@@ -271,7 +271,7 @@ function caseInSwitch(val) {
   }
   caseInSwitch(1);
 
-  // 184
+  // 184.
   function switchOfStuff(val) {
     var answer = "";
     switch (val) {
@@ -291,7 +291,7 @@ function caseInSwitch(val) {
 }
 switchOfStuff(1);
 
-// 185
+// 185.
 function sequentialSizes(val) {
     var answer = "";
     switch (val) {
@@ -315,7 +315,7 @@ function sequentialSizes(val) {
 }
 sequentialSizes(1);
 
-// 186
+// 186.
 function chainToSwitch(val) {
     var answer = "";
     switch (val) {
@@ -339,13 +339,13 @@ function chainToSwitch(val) {
 }
 chainToSwitch(7);
 
-// 187
+// 187.
 function isLess(a, b) {
     return a < b;
 }
 isLess(10, 15);
 
-// 188
+// 188.
 function abTest(a, b) {
     if (a < 0 || b < 0) {
       return;
@@ -354,7 +354,7 @@ function abTest(a, b) {
   }
   abTest(2,2);
 
-  // 189
+  // 189.
   var count = 0;
   function cc(card) {
     switch (card) {
@@ -379,7 +379,7 @@ function abTest(a, b) {
 }
 cc(2); cc(3); cc(7); cc('K'); cc('A');
 
-// 190
+// 190.
 var myDog = {
     "name": "Camper",
     "legs": 4,
