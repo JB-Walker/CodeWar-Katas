@@ -658,24 +658,24 @@ var expression = /\S/g;
 var nonSpaceCount = testString.match(expression).length;
 
 //
-//  Object Oriented and Functional Programming
+// Object Oriented and Functional Programming
 //
 
-// 216
+// 216.
 var motorBike = {
     "wheels":2,
     "engines":2,
     "seats":1
 };
 
-// 217
+// 217.
 var MotorBike = function() {
     this.wheels = 2;
     this.engines = 2;
     this.seats = 1;
 };
 
-// 218
+// 218.
 var Car = function() {
     this.wheels = 4;
     this.engines = 1;
@@ -684,7 +684,7 @@ var Car = function() {
 var myCar = new Car();
 myCar.nickname = "Zippy";
 
-// 219
+// 219.
 var Car = function(wheels, seats, engines) {
     this.wheels = wheels;
     this.seats = seats;
@@ -692,20 +692,18 @@ var Car = function(wheels, seats, engines) {
 };
 var myCar = new Car(4, 3, 1);
 
-// 220
+// 220.
 var Car = function() {
-    // this is a private variable
-    var speed = 10;
-    // these are public methods
-    this.accelerate = function(change) {
-      speed += change;
-    };
-    this.decelerate = function() {
-      speed -= 5;
-    };
-    this.getSpeed = function() {
-      return speed;
-    };
+  let speed = 10;
+  this.accelerate = function(change) {
+    speed += change;
+  };
+  this.decelerate = function() {
+    speed -= 5;
+  };
+  this.getSpeed = function() {
+    return speed;
+  };
 };
 var Bike = function() {
     var gear = 10;
