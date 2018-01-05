@@ -387,7 +387,7 @@ var myDog = {
     "friends": ["everything!"]
 };
 
-// 191
+// 191.
 var testObj = {
     "hat": "ballcap",
     "shirt": "jersey",
@@ -396,7 +396,7 @@ var testObj = {
 var hatValue = testObj.hat;
 var shirtValue = testObj.shirt;
 
-// 192
+// 192.
 var testObj = {
     "an entree": "hamburger",
     "my side": "veggies",
@@ -405,7 +405,7 @@ var testObj = {
 var entreeValue = testObj["an entree"];
 var drinkValue = testObj["the drink"];
 
-// 193
+// 193.
 var testObj = {
     12: "Namath",
     16: "Montana",
@@ -414,7 +414,7 @@ var testObj = {
 var playerNumber = 16;     
 var player = testObj[playerNumber];
 
-// 194
+// 194.
 var myDog = {
     "name": "Coder",
     "legs": 4,
@@ -423,7 +423,7 @@ var myDog = {
 };
 myDog.name = "Happy Coder";
 
-// 195
+// 195.
 var myDog = {
     "name": "Happy Coder",
     "legs": 4,
@@ -432,7 +432,7 @@ var myDog = {
 };
 myDog.bark = "woof";
 
-// 196
+// 196.
 var myDog = {
     "name": "Happy Coder",
     "legs": 4,
@@ -442,7 +442,7 @@ var myDog = {
 };
 delete myDog.tails;
 
-// 197
+// 197.
 function phoneticLookup(val) {
     var result = "";
     var lookup = {
@@ -458,7 +458,7 @@ function phoneticLookup(val) {
 }
 phoneticLookup("charlie");
 
-// 198
+// 198.
 var myObj = {
     gift: "pony",
     pet: "kitten",
@@ -472,7 +472,7 @@ var myObj = {
 }
 checkObj("gift");
 
-// 199
+// 199.
 var myMusic = [
     {
       "artist": "Billy Joel",
@@ -496,7 +496,7 @@ var myMusic = [
     }
 ];
 
-// 200
+// 200.
 var myStorage = {
     "car": {
       "inside": {
