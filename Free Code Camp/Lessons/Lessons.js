@@ -129,7 +129,7 @@ function testStrict(val) {
 }
 testStrict(7);
 
-// 171
+// 171.
 function testNotEqual(val) {
     if (val != 99) {
       return "Not Equal";
@@ -138,7 +138,7 @@ function testNotEqual(val) {
 }
 testNotEqual(99);
 
-// 172
+// 172.
 function testStrictNotEqual(val) {
     if (val !== 17) {
       return "Not Equal";
@@ -147,7 +147,7 @@ function testStrictNotEqual(val) {
 }
 testStrictNotEqual(17);
 
-// 173
+// 173.
 function testGreaterThan(val) {
     if (val > 100) {
       return "Over 100";
@@ -159,7 +159,7 @@ function testGreaterThan(val) {
 }
 testGreaterThan(101);
 
-// 174
+// 174.
 function testGreaterOrEqual(val) {
     if (val >= 20) {
       return "20 or Over";
@@ -171,7 +171,7 @@ function testGreaterOrEqual(val) {
 }
 testGreaterOrEqual(10);
 
-// 175
+// 175.
 function testLessThan(val) {
     if (val < 25) {
       return "Under 25";
@@ -183,7 +183,7 @@ function testLessThan(val) {
 }
 testLessThan(10);
 
-// 176
+// 176.
 function testLessOrEqual(val) {
     if (val <= 12) {
       return "Smaller Than or Equal to 12";
@@ -195,7 +195,7 @@ function testLessOrEqual(val) {
 }
 testLessOrEqual(10);
 
-// 177
+// 177.
 function testLogicalAnd(val) {
     if (val >= 25 && val <= 50) {
         return "Yes";
@@ -204,7 +204,7 @@ function testLogicalAnd(val) {
 }
 testLogicalAnd(10);
 
-// 178
+// 178.
 function testLogicalOr(val) {
     if (val < 10 || val > 20) {
       return "Outside";
@@ -213,7 +213,7 @@ function testLogicalOr(val) {
 }
 testLogicalOr(9);
 
-// 179
+// 179.
 function testElse(val) {
     var result = "";    
     if (val > 5) {
@@ -225,7 +225,7 @@ function testElse(val) {
 }
 testElse(4);
 
-// 180
+// 180.
 function testElseIf(val) {
     if (val > 10) {
       return "Greater than 10";
