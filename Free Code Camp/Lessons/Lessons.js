@@ -18,7 +18,8 @@ var lastLetterOfLastName = lastName[lastName.length - 1];
 // Use bracket notation to find the second-to-last character in the lastName string.
 var secondToLastLetterOfLastName = lastName[lastName.length - 2];
 
-// 149. 
+// 149. Word Blanks
+// 
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
     var result = "";
     result = "The huge, " + myAdjective + " " + myNoun + " " + myVerb + " around the corner " + myAdverb + "!!";
