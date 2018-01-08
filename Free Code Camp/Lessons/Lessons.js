@@ -50,7 +50,8 @@ myArray[0] = 3;
 // Using bracket notation select an element from myArray such that myData is equal to 8.
 var myData = myArray[2][1];
 
-// 155. 
+// 155. Manipulate Arrays With push
+// Push ["dog", 3] onto the end of the myArray variable.
 myArray.push(["dog", 3]);
 
 // 156.
