@@ -54,7 +54,8 @@ var myData = myArray[2][1];
 // Push ["dog", 3] onto the end of the myArray variable.
 myArray.push(["dog", 3]);
 
-// 156.
+// 156. Manipulate Arrays With pop
+//
 var removedFromMyArray = myArray.shift();
 
 // 157.
