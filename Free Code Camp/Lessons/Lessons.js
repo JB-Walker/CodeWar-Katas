@@ -43,7 +43,7 @@ var myArray = [[1, 2, 3], [4, 5, 6]];
 var myData = myArray[0];
 
 // 153. Modify Array Data With Indexes 
-// 
+// Modify the data stored at index 0 of myArray to a value of 3.
 myArray[0] = 3;
 
 // 154.
