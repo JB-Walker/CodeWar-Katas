@@ -38,7 +38,7 @@ var myArray = ["happy", 13];
 // Create a nested array called myArray.
 var myArray = [[1, 2, 3], [4, 5, 6]];
 
-// 152.
+// 152. Access Array Data with Indexes
 var myData = myArray[0];
 
 // 153.
