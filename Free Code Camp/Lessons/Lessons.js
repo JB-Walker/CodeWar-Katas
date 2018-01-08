@@ -46,10 +46,11 @@ var myData = myArray[0];
 // Modify the data stored at index 0 of myArray to a value of 3.
 myArray[0] = 3;
 
-// 154.
+// 154. Access MultiDimensional Arrays With Indexes
+// Using bracket notation select an element from myArray such that myData is equal to 8.
 var myData = myArray[2][1];
 
-// 155.
+// 155. 
 myArray.push(["dog", 3]);
 
 // 156.
