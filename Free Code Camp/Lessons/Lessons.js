@@ -39,9 +39,10 @@ var myArray = ["happy", 13];
 var myArray = [[1, 2, 3], [4, 5, 6]];
 
 // 152. Access Array Data with Indexes
+// Create a variable called myData and set it to equal the first value of myArray using bracket notation.
 var myData = myArray[0];
 
-// 153.
+// 153. 
 myArray[0] = 3;
 
 // 154.
