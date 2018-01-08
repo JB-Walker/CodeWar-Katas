@@ -35,6 +35,7 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
 var myArray = ["happy", 13];
 
 // 151. Nest one Array within Another Array
+// Create a nested array called myArray.
 var myArray = [[1, 2, 3], [4, 5, 6]];
 
 // 152.
