@@ -55,7 +55,7 @@ var myData = myArray[2][1];
 myArray.push(["dog", 3]);
 
 // 156. Manipulate Arrays With pop
-//
+// Use the .pop() function to remove the last item from myArray, assigning the "popped off" value to removedFromMyArray.
 var removedFromMyArray = myArray.shift();
 
 // 157.
