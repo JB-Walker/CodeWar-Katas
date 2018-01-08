@@ -30,10 +30,11 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
     return result;
 }
 
-// 150.
+// 150. Store Multiple Values in one Variable using JavaScript Arrays
+// Modify the new array myArray so that it contains both a string and a number (in that order).
 var myArray = ["happy", 13];
 
-// 151.
+// 151. 
 var myArray = [[1, 2, 3], [4, 5, 6]];
 
 // 152.
