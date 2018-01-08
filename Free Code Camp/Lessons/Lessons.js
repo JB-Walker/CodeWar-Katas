@@ -34,7 +34,7 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
 // Modify the new array myArray so that it contains both a string and a number (in that order).
 var myArray = ["happy", 13];
 
-// 151. 
+// 151. Nest one Array within Another Array
 var myArray = [[1, 2, 3], [4, 5, 6]];
 
 // 152.
