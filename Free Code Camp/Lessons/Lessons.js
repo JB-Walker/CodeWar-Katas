@@ -3,18 +3,22 @@
 //
 
 // 145. Understand String Immutability 
+// Correct the assignment to myStr to achieve the desired effect.
 myStr = "Hello World";
 
 // 146. Use Bracket Notation to Find the Nth Character in a String
+// Let's try to set thirdLetterOfLastName to equal the third letter of the lastName variable using bracket notation.
 var thirdLetterOfLastName = lastName[2];
 
-// 147. Use Bracket Notation to Find the Last Character in a String 
+// 147. Use Bracket Notation to Find the Last Character in a String
+// Use bracket notation to find the last character in the lastName variable.
 var lastLetterOfLastName = lastName[lastName.length - 1];
 
-// 148.
+// 148.Use Bracket Notation to Find the NthtoLast Character in a String
+// Use bracket notation to find the second-to-last character in the lastName string.
 var secondToLastLetterOfLastName = lastName[lastName.length - 2];
 
-// 149.
+// 149. 
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
     var result = "";
     result = "The huge, " + myAdjective + " " + myNoun + " " + myVerb + " around the corner " + myAdverb + "!!";
