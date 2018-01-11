@@ -1,5 +1,6 @@
 function whatIsInAName(collection, source) {
 sInAName([{ first: "Romeo", last: "Montague" }, 
 { first: "Mercutio", last: null }, 
-{ first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+{ first: "Tybalt", last: "Capulet" }],
+ { last: "Capulet" });
                                                                                   
