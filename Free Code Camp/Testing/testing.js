@@ -1,5 +1,6 @@
 function whatIsInAName(collection, source) {
-sInAName([{ first: "Romeo", 
+sInAName([{ first: 
+  "Romeo", 
 last: 
 "Montague" }, 
                                                                                   
