@@ -1,4 +1,5 @@
-function whatIsInAName(
+function 
+whatIsInAName(
   collection,
    source) {
 sInAName([{ 
