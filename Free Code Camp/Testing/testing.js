@@ -5,6 +5,13 @@ whatIsInAName(
 sInAName([{ 
   first: 
   "Romeo", 
-last: 
-"Montague" }, 
+  function 
+  whatIsInAName(
+    collection,
+     source) {
+  sInAName([{ 
+    first: 
+    "Romeo", 
+  last: 
+  "Montague" }, "Montague" }, 
                                                                                   
