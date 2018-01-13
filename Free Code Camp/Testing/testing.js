@@ -14,9 +14,7 @@ sInAName([{
         collection,
         function 
         whatIsInAName(
-          collection,
-           source) {
-        sInAName([{ 
+         
           first: 
           "Romeo", 
           function 
