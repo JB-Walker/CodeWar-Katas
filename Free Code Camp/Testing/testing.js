@@ -1,4 +1,5 @@
-function whatIsInAName(collection,
+function whatIsInAName(
+  collection,
    source) {
 sInAName([{ 
   first: 
