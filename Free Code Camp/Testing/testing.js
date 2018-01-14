@@ -5,5 +5,5 @@
                             (
                               ,                                function 
                                 (
-                                  collection,
+                                  ,
                                    ) { 
