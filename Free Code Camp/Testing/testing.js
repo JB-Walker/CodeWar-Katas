@@ -3,9 +3,7 @@
                             "Romeo", 
                             function 
                             whatIsInAName(
-                              collection,
-                               source) {
-                                function 
+                              collection,                                function 
                                 whatIsInAName(
                                   collection,
                                    source) { 
