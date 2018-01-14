@@ -1824,4 +1824,7 @@ truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "ma
 // var sumTwoAnd = addTogether(2);
 // sumTwoAnd(3) returns 5.
 // If either argument isn't a valid number, return undefined.
-
+function addTogether() {
+  return false;
+}
+addTogether(2,3);
