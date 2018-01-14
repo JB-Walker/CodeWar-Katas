@@ -4,6 +4,6 @@
                              
                             (
                               ,                                function 
-                                whatIsInAName(
+                                (
                                   collection,
                                    source) { 
