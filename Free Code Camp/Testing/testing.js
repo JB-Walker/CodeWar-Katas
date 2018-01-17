@@ -38,10 +38,3 @@ Data Visualization Certification<br>
   00/05 Data Visualization Projects
   ```
 
-</ul>
-<br>
-
-</ul>
-<br>
-
-<strong>
