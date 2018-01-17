@@ -7,6 +7,3 @@ Front-End Development Certification<br>
   <li>31/31 Responsive Design with Bootstrap</li>
   <li>18/18 jQuery</li>
 
-  ```html
-  02/03 Basic Front-End Development Projects ###### Skipped 1 ######
-  ```
