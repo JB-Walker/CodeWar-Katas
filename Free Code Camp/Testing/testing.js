@@ -8,8 +8,3 @@ Front-End Development Certification<br>
   <li>18/18 jQuery</li>
 
   ```html
-  02/03 Basic Front-End Development Projects ###### Skipped 1 ######
-  ```
-
-  <li>104/104 Basic JavaScript</li>
-  <li>13/13 Object Oriented and Functional Programming</li>
