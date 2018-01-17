@@ -16,11 +16,4 @@ Front-End Development Certification<br>
   <li>17/17 Basic Algorithm Scripting</li>
   <li>07/07 JSON APIs and AJAX</li>
 
-  ```html
-  01/04 Intermediate Front End Development Projects ###### Skipped 3 ######
-  ```
-
-  <li>20/21 Intermediate Algorithm Scripting</li>
-  <li>00/09 Advanced Algorithm Scripting</li>
-
-  ```html
+  
