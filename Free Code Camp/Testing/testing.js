@@ -10,10 +10,3 @@ Front-End Development Certification<br>
   ```html
   02/03 Basic Front-End Development Projects ###### Skipped 1 ######
   ```
-
-  <li>104/104 Basic JavaScript</li>
-  <li>13/13 Object Oriented and Functional Programming</li>
-  <li>17/17 Basic Algorithm Scripting</li>
-  <li>07/07 JSON APIs and AJAX</li>
-
-  
