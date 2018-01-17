@@ -42,14 +42,3 @@ Data Visualization Certification<br>
 <br>
 
 
-<br>
-
-Video Challenges<br>
-<ul>
-  <li>22/22 Computer Basics</li>
-  <li>02/02 The DOM</li>
-  <li>09/09 JavaScript Lingo</li>
-  <li>00/09 Chrome Developer Tools</li>
-  <li>00/02 Big O Notation</li>
-</ul>
-<br>
