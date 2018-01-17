@@ -24,17 +24,3 @@ Front-End Development Certification<br>
   <li>00/09 Advanced Algorithm Scripting</li>
 
   ```html
-  00/04 Advanced Front End Development Projects
-  ```
-
-</ul>
-<br>
-
-Data Visualization Certification<br>
-<ul>
-
-  ```html
-  00/05 React Projects
-  00/05 Data Visualization Projects
-  ```
-
