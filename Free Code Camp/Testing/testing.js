@@ -21,10 +21,3 @@ Front-End Development Certification<br>
   ```
 
   <li>20/21 Intermediate Algorithm Scripting</li>
-  <li>00/09 Advanced Algorithm Scripting</li>
-
-  ```html
-  00/04 Advanced Front End Development Projects
-  ```
-
-</ul>
