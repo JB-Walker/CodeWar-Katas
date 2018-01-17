@@ -41,26 +41,7 @@ Data Visualization Certification<br>
 </ul>
 <br>
 
-Back-End Development Certification<br>
-<ul>
-  <li>00/02 Automated Testing and Debugging</li>
-  <li>00/01 Git</li>
-  <li>00/05 Node.js and Express.js</li>
-  <li>00/01 MongoDB</li>
 
-  ```html
-  00/06 API Projects
-  00/06 Dynamic Web Application Projects
-  ```
-
-</ul>
-<br>
-
-<strong>
-=============<br>
-02/32 Total Projects<br>
-=============<br>
-</strong>
 <br>
 
 Video Challenges<br>
