@@ -28,17 +28,3 @@ Front-End Development Certification<br>
   ```
 
 </ul>
-<br>
-
-Data Visualization Certification<br>
-<ul>
-
-  ```html
-  00/05 React Projects
-  00/05 Data Visualization Projects
-  ```
-
-</ul>
-<br>
-
-
